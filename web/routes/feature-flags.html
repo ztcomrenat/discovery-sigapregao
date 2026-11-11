@@ -1,0 +1,158 @@
+<html lang="pt-BR" translate="no" data-theme="dark" dir="ltr" style="--app-header-gap-ios: 0px;"><head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)})
+(window,'AW-11342361445','google_tags_first_party');</script><script async="" src="/b6sx/"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('set', 'developer_id.dY2E1Nz', true);
+				
+			</script>
+			
+    <meta charset="UTF-8">
+    <script id="tirar-token-apple-da-url">
+        // Login com Apple: o id_token chega no fragmento (/login-apple#id_token=...) e vale como senha até vencer.
+        // Ele sai da URL ANTES de qualquer outro script (terceiros, telemetria de erros, roteador) ler a location,
+        // e fica na sessionStorage da aba até a tela do login com Apple usá-lo (src/utils/idTokenDaUrl.ts): um F5
+        // antes disso ainda o envia, e o uso único o queima.
+        (function () {
+            try {
+                if (location.pathname !== '/login-apple') return;
+                var token = new URLSearchParams(location.hash.slice(1)).get('id_token')
+                    || new URLSearchParams(location.search).get('id_token');
+                if (token) {
+                    try { sessionStorage.setItem('siga:id-token-apple', token); } catch (e) { window.__sigaIdTokenApple = token; }
+                }
+                if (location.hash || location.search) history.replaceState(null, '', location.pathname);
+            } catch (e) {
+                // sem URLSearchParams ou history: a tela do login com Apple tira o token da URL
+            }
+        })();
+    </script>
+    <link href="/assets-v2/favicon.ico" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="google" content="notranslate">
+    <title>SIGA Pregão</title>
+  <script type="module" crossorigin="" src="/assets-v2/index-dql0GcS1.js"></script>
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-vue-CSPDYwCI.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-highlight-CixF2PG1.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-misc-B0NKe7BA.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-firebase-ksofsjkt.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-capacitor-BMzTJ8H0.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-moment-Cd33ElYF.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-quasar-CCT8qW1q.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-tiptap-CTFSHzlR.js">
+  <link rel="modulepreload" crossorigin="" href="/assets-v2/vendor-pdf-7nk6lcpB.js">
+  <link rel="stylesheet" crossorigin="" href="/assets-v2/vendor-misc-CK50VeJ8.css">
+  <link rel="stylesheet" crossorigin="" href="/assets-v2/vendor-quasar-CYjoZort.css">
+  <link rel="stylesheet" crossorigin="" href="/assets-v2/index-CWHFiDI0.css">
+<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/loader.js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/util/util.css"><link id="load-css-2" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/controls/controls.css"><link id="load-css-3" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/table/table.css"><link id="load-css-4" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/util/format.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_default_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_graphics_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_ui_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_corechart_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_controls_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_geo_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_geochart_module__pt_br.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/i18n/jsapi_compiled_i18n_table_module__pt_br.js"></script><style>@keyframes _spin_1nqjn_1{0%{transform:rotate(0)}to{transform:rotate(360deg)}}@keyframes _wave_1nqjn_1{0%{transform:rotate(0)}50%{transform:rotate(20deg)}to{transform:rotate(0)}}@keyframes _heartBeat_1nqjn_1{0%{transform:scale(1)}50%{transform:scale(1.08)}to{transform:scale(1)}}@keyframes _flash_1nqjn_1{0%,50%,to{opacity:1}25%,75%{opacity:.2}}@keyframes _bounce_1nqjn_1{0%,20%,53%,to{transform:translate(0,0)}40%,43%{transform:translateY(-30px)scaleY(1.1)}70%{transform:translateY(-15px)scaleY(1.05)}80%{transform:translate(0,0)scaleY(.95)}90%{transform:translateY(-4px)scaleY(1.02)}}@keyframes _rubberBand_1nqjn_1{0%{transform:scale(1)}30%{transform:scale(1.25,.75)}40%{transform:scale(.75,1.25)}50%{transform:scale(1.15,.85)}65%{transform:scale(.95,1.05)}75%{transform:scale(1.05,.95)}to{transform:scale(1)}}@keyframes _headShake_1nqjn_1{0%{transform:translate(0)}6.5%{transform:translate(-6px)rotateY(-9deg)}18.5%{transform:translate(5px)rotateY(7deg)}31.5%{transform:translate(-3px)rotateY(-5deg)}43.5%{transform:translate(2px)rotateY(3deg)}50%{transform:translate(0)}}@keyframes _tada_1nqjn_1{0%{transform:scale(1)}10%,20%{transform:scale3d(.9,.9,.9)rotate(-3deg)}30%,50%,70%,90%{transform:scale3d(1.1,1.1,1.1)rotate(3deg)}40%,60%,80%{transform:scale3d(1.1,1.1,1.1)rotate(-3deg)}to{transform:scale(1)}}._overlay_1nqjn_157{z-index:1000000006;background-color:#0f0f0f99;justify-content:center;align-items:center;display:flex;position:fixed;inset:0}._layoutDefault_1nqjn_170{z-index:2147483000;opacity:0;background-color:#0000;border-radius:5px;width:auto;max-width:95vw;height:auto;display:flex;position:fixed;bottom:20px;right:20px;box-shadow:0 0 0 1px #0f0f0f0d,0 3px 6px #0f0f0f1a,0 9px 24px #0f0f0f33}._layoutModal_1nqjn_188{z-index:2147483000;opacity:0;background-color:#0000;border-radius:5px;width:700px;max-width:95vw;height:auto;display:flex;position:relative;box-shadow:0 0 0 1px #0f0f0f0d,0 3px 6px #0f0f0f1a,0 9px 24px #0f0f0f33}._popupContainer_1nqjn_204{border-radius:5px;width:100%;display:flex;overflow-y:auto}._popupContainer_1nqjn_204 iframe{border-radius:5px;max-height:95vh}._loadingIndicator_1nqjn_216{z-index:2147483000;color:#444;background-color:#f5f5f5;border-radius:50%;justify-content:center;align-items:center;width:50px;height:50px;display:inline-flex;position:absolute}._loadingIndicatorNoOverlay_1nqjn_229{position:fixed;bottom:10px;right:10px}._loadingIndicator_1nqjn_216 svg{width:20px;height:20px;animation:1.618s linear infinite _spin_1nqjn_1}._emoji_1nqjn_241{font-size:42px;line-height:1;display:inline-block;position:absolute;top:-21px;left:-21px}._animate__wave_1nqjn_250{animation:1s ease-in-out 20 _wave_1nqjn_1}._animate__heart-beat_1nqjn_254{animation:1.3s ease-in-out 20 _heartBeat_1nqjn_1}._animate__flash_1nqjn_258{animation:2.5s 20 _flash_1nqjn_1}._animate__bounce_1nqjn_262{transform-origin:bottom;animation:1.5s 20 _bounce_1nqjn_1}._animate__rubber-band_1nqjn_267{animation:1.5s 20 _rubberBand_1nqjn_1}._animate__head-shake_1nqjn_271{animation:1.5s ease-in-out 20 _headShake_1nqjn_1}._animate__tada_1nqjn_275{animation:1.5s 20 _tada_1nqjn_1}._animate__spin_1nqjn_279{animation:1.618s linear 20 _spin_1nqjn_1}@media (height<=1000px){._popupContainer_1nqjn_204 iframe{max-height:85vh}}@media (width<=576px){._popupContainer_1nqjn_204 iframe{max-height:70vh}._layoutDefault_1nqjn_170,._layoutModal_1nqjn_188{max-width:calc(100% - 40px)}}
+/*$vite$:1*/</style><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/OportunidadesView-B7IGycFW.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/SearchSuggest-CvmQiAgI.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/SearchSuggest-CjvyoFsD.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/Select2V3-CihgQElY.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/Select2V3-B5zeIvts.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/FiltrosAplicadosOportunidadesComponent-DcUrZVR4.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ItemLabel.vue_vue_type_script_setup_true_lang-IK_n5jXS.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/FiltrosAplicadosOportunidadesComponent-XVzrCdZd.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ItemCard-pvklFtDq.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/ItemCard-DEyUfAvL.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/OportunidadeService-DFqMn1Bu.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/Page-IAG54GiL.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/PortaisMultiSelect-DuS6CJEj.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/IndicePagamentoPagometro-Ly_VUW5M.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/upgradeUltra-CKQCa9RC.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/IndicePagamentoPagometro-ATeIWFhn.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ItemProcessoLicitatorioComponent-eE6uPSde.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/LinkExternoButton.vue_vue_type_script_setup_true_lang-DBynNn9X.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/SelecaoEmpresaComprasnet.vue_vue_type_script_setup_true_lang-DXF1qz4l.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/SelecaoEmpresaComprasnet-BHanDGr_.css"><link rel="stylesheet" crossorigin="" href="/assets-v2/ItemProcessoLicitatorioComponent-SVbMSmGj.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ContagemAbertura-B__c9UXE.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/ContagemAbertura-BydDohUT.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/OportunidadeComponent-BC9BxHqk.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/SkeletonOpportunityDetail-BRNJJ_da.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ShareButtons-Bw6EDmHH.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/PromptDialog-jYycZhpF.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/PromptDialog-ChhQMIyc.css"><link rel="stylesheet" crossorigin="" href="/assets-v2/ShareButtons-DOJDON3G.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/UiInputIcon.vue_vue_type_script_setup_true_lang-BuxeM2yB.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/UiContextMenu.vue_vue_type_script_setup_true_lang-CHk-utFv.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/UiPopover-2-h-Z9gu.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/UiPopover-Bxcl2VzK.css"><link rel="stylesheet" crossorigin="" href="/assets-v2/OportunidadeComponent-C9lcxuWQ.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/dateRanges-BejdhmLw.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ItemCheckboxSiga.vue_vue_type_style_index_0_lang-CnmX3V0N.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/ItemCheckboxSiga-7Y8Y5qnD.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/DateRangePicker-CeKra4z1.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/DateRangePicker-DTN7adWm.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/PaginacaoComponent.vue_vue_type_style_index_0_lang-B_Im_Xxm.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/PaginacaoComponent-0FvvdLCM.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AdicionarNegocioComponent-BnGtt_k_.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/EstadosMultiSelect-BXXcTbBl.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AdicionarEmpresaComponent-_V_UKo1l.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/FuncionalidadeIndisponivelComponent.vue_vue_type_script_setup_true_lang-xIFutobS.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ItemRadioSiga-Dz1V4T0B.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/ItemRadioSiga-BTSVbuJF.css"><link rel="stylesheet" crossorigin="" href="/assets-v2/AdicionarEmpresaComponent-KjNdxABI.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ChecklistTemplateService-DOyzo3Vg.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/AdicionarNegocioComponent-DEsPuzx4.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/ConverseComEditalComponent-C01p50w_.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/ConverseComEditalComponent-DW8U8ZXm.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/planoEfetivo-CmD5Ejvw.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AtaEmpresaParticipacaoGeralComponent-CsRRyH0M.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/google-37-KN56WMsW.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/AtaEmpresaParticipacaoGeralComponent-DfXjPjAS.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AtaDetalheItemComponent-_JxxOBvP.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/AtaDetalheItemComponent-BxfxrrHJ.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AtaEmpresaDetalheVitoriaComponent-DM63649J.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/AtaEmpresaDetalheVitoriaComponent-C6O_1eT_.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AtaTableMarcasComponent.vue_vue_type_style_index_0_lang-DtkznBg2.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/AtaTableMarcasComponent-DLWvhaR2.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AtaGraficoPrecosPraticadosComponent.vue_vue_type_style_index_0_lang-BotBpkeB.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/AtaGraficoPrecosPraticadosComponent-oc11hgJV.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/SkeletonOpportunityItem.vue_vue_type_script_setup_true_lang-BxB4l7Lb.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/OportunidadesView-c4V_WnAM.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/MeusNegociosView-B-eEN95Y.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/NegocioComponent-DCNByx38.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/FaseNegocioMultiSelect-CUNA6aK0.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/OnboardingMonitorB2GModal.vue_vue_type_script_setup_true_lang-C_AFQsZv.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/superCrawlParada-DGWlG_o4.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/EmpresaService-BJRhbqtH.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/NegocioComponent-C4Bq2bu0.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/DocumentosNegocio-BQVbHiIu.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AgendaSyncService-D7bub4dl.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/UiCheckbox-C7GdfHDD.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/UiCheckbox-GORGHeEy.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/UiTextarea-CVPpcFKe.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/UiTextarea-BZaBl4wW.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/errorMessage-CN_RGdFH.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/driveValidity-BzYNDQJ7.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/DocManagerService-z19K8OrE.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/DocumentosNegocio-D1VnzjFi.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/negociosQuadroRegras-BYFaIr7D.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/AtividadesPregaoComprasnet.vue_vue_type_script_setup_true_lang-BkexOpca.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/CadastroDePropostaComprasnet-DcbqPDoK.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/CadastroDePropostaComprasnet-TIFWIYU5.css"><link rel="stylesheet" crossorigin="" href="/assets-v2/MeusNegociosView-lqiSKyJ2.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/MinhaAgendaView-BAmYOEnA.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets-v2/duracaoLegivel-1tytYGIi.js"><link rel="stylesheet" crossorigin="" href="/assets-v2/MinhaAgendaView-BfsFyMTt.css"></head>
+
+<body class="desktop no-touch capacitor native-mobile body--light">
+<div id="app" data-v-app=""><div data-v-7f7bb424="" class="router--wrapper bg-p" style=""><!----></div><!----><!----><!----></div>
+
+<script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
+<script src="https://www.gstatic.com/charts/51/loader.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="/assets-v2/js/brmap.js"></script>
+<script src="/assets-v2/js/graficos/util.js"></script>
+<script src="/assets-v2/js/graficos/pca-graficos.js?v=20260826"></script>
+<script src="/assets-v2/js/graficos/atas-graficos.js"></script>
+
+<script src="/assets-v2/plugins/amcharts4/core.js"></script>
+<script src="/assets-v2/plugins/amcharts4/charts.js"></script>
+<script src="/assets-v2/plugins/amcharts4/themes/material.js"></script>
+<script src="/assets-v2/plugins/amcharts4/themes/animated.js"></script>
+<script src="/assets-v2/plugins/amcharts4/lang/pt_BR.js"></script>
+
+<script async="" src="https://tally.so/widgets/embed.js"></script>
+<script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+
+<script>
+    google.charts.load('current', {
+        'packages': ['corechart', 'controls', 'geochart', 'table'],
+        'language': 'pt'
+    });
+
+    function abrirHistorico(el, tipo) {
+        document.dispatchEvent(new CustomEvent("abrirhistorico", {
+            detail: {
+                el: el,
+                tipo: tipo,
+            },
+        }));
+    }
+
+    function openlicitacao(id) {
+        document.dispatchEvent(new CustomEvent("openlicitacao", {
+            detail: {
+                id: id,
+            },
+        }));
+    }
+
+    function novasugestao(s) {
+        document.dispatchEvent(new CustomEvent("novasugestao", {
+            detail: {
+                s: s,
+            },
+        }));
+    }
+
+    function abrirHistoricoAta(el, tipo) {
+        document.dispatchEvent(new CustomEvent("abrirHistoricoAta", {
+            detail: {
+                el: el,
+                tipo: tipo,
+            },
+        }));
+    }
+
+    function abrirhistoricodoitem(id) {
+        document.dispatchEvent(new CustomEvent("abrirhistoricodoitem", {
+            detail: {
+                id: id,
+            },
+        }));
+    }
+</script>
+
+<!--
+
+<script>var STONLY_WID = "ae35847c-879b-11eb-afd4-062882f67cfe";</script>
+<script>
+    !function (s, t, o, n, l, y, w, g) {
+        s.StonlyWidget || ((w = s.StonlyWidget = function () {
+            w._api ? w._api.apply(w, arguments) : w.queue.push(arguments)
+        }).queue = [], (y = t.createElement(o)).async = !0,
+            (g = new XMLHttpRequest).open("GET", n + "version?v=" + Date.now(), !0), g.onreadystatechange = function () {
+            4 === g.readyState && (y.src = n + "stonly-widget.js?v=" + (200 === g.status ? g.responseText : Date.now()),
+                (l = t.getElementsByTagName(o)[0]).parentNode.insertBefore(y, l))
+        }, g.send())
+    }(window, document, "script", "https://stonly.com/js/widget/v2/");
+</script>
+<script>
+    (function (s, t, o, n, l, y, _) {
+        if (s.stonlyTrack) return;
+        _ = s.stonlyTrack = function () {
+            _._api ? _._api.apply(_, arguments) : _.queue.push(arguments);
+        };
+        _.queue = [];
+        y = t.createElement(o);
+        y.async = !0;
+        y.src = n;
+        l = t.getElementsByTagName(o)[0];
+        l.parentNode.insertBefore(y, l);
+    })(window, document, 'script', 'https://stonly.com/js/tracker/stn.js');
+    stonlyTrack('init', STONLY_WID);
+</script>
+-->
+
+
+
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;4ff51a61eb4e4cffaf942dd06dcae39f&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+
+<div id="q-loading-bar" data-v-app=""><div class="q-loading-bar q-loading-bar--top bg-primary" aria-hidden="true" style="transform: translate3d(-100%, -200%, 0px); height: 3px; opacity: 0;"></div></div></body></html>

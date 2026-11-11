@@ -1,0 +1,64 @@
+slug,url_final,tipo,heading,inputs,botoes,links,gate,notas
+login,https://app.sigapregao.com.br/login,rota,Entrar,1,2,2,,Email+Apple Sign-In
+cadastro,https://app.sigapregao.com.br/cadastro,rota,Criar sua conta,4,1,4,,Nome email tel aceite
+recuperar-senha,https://app.sigapregao.com.br/recuperar-senha,rota,Recuperar acesso,1,1,2,,Email link
+redefinir-senha,https://app.sigapregao.com.br/redefinir-senha,rota,Redefinir acesso,2,2,1,,Senha+confirm
+primeiro-acesso,https://app.sigapregao.com.br/primeiro-acesso,rota,Primeiro acesso,2,2,2,,Definicao senha
+planos,https://app.sigapregao.com.br/planos,rota,Assine o SIGA Pregao,0,4,5,gate,Paywall iOS
+termos-de-uso,https://app.sigapregao.com.br/termos-de-uso,rota,Termos e Condicoes,0,0,7,,Legal
+politica-de-privacidade,https://app.sigapregao.com.br/politica-de-privacidade,rota,Politica de Privacidade,0,0,3,,Legal
+aceitar-termos,https://app.sigapregao.com.br/login?reason=expired,rota,Entrar (redirect),1,2,2,auth-gate,Redirect login
+reative-assinatura,https://app.sigapregao.com.br/reative-assinatura,rota,Reative assinatura,0,1,1,gate-upsell,WhatsApp
+ative-assinatura,https://app.sigapregao.com.br/ative-assinatura,rota,Ative assinatura,0,1,1,gate-upsell,WhatsApp
+admin-access-logs,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+admin-activity-logs,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+admin-beta-features,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+admin-chamados,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+admin-frontend-errors,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+admin-monitoramento-atas,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+admin-templates-de-tarefas,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+agente-prospeccao,https://app.sigapregao.com.br/agente-prospeccao,rota,Agente de Prospecção,37,31,22,,
+ambientes,https://app.sigapregao.com.br/ambientes,rota,Notificações,0,28,19,,
+analise-empresa,https://app.sigapregao.com.br/analise-empresa,rota,Análise de Empresas,2,32,19,,
+analise-mercado,https://app.sigapregao.com.br/analise-mercado,rota,Análise de Mercado,2,32,22,,
+b2g-club,https://app.sigapregao.com.br/aceitar-termos,rota,Contrato de Prestação de Serviços,3,26,16,,
+b2g-fornecedor,https://app.sigapregao.com.br/b2g-fornecedor,rota,B2G Fornecedor,0,30,24,gate,GATE premium
+b2g-juridico,https://app.sigapregao.com.br/b2g-juridico,rota,B2G Jurídico,0,30,24,gate,GATE premium
+b2g-leitor,https://app.sigapregao.com.br/b2g-leitor,rota,B2G Leitor,0,30,24,gate,GATE premium
+b2g-monitor,https://app.sigapregao.com.br/b2g-monitor,rota,B2G Monitor,0,36,26,gate,GATE premium
+b2g-prospecta,https://app.sigapregao.com.br/b2g-prospecta,rota,B2G Prospecta,0,30,24,gate,GATE premium
+baixa-concorrencia,https://app.sigapregao.com.br/baixa-concorrencia,rota,Baixa Concorrencia,4,29,21,,
+capacidade-pagamento,https://app.sigapregao.com.br/capacidade-pagamento,rota,Capacidade de Pagamento dos Municípios,40,31,21,,
+clientes,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+comprasnet,https://app.sigapregao.com.br/comprasnet,rota,,0,0,0,,Nav timeout
+conector-ia,https://app.sigapregao.com.br/conector-ia,rota,Conector de IA,0,30,24,gate,GATE premium
+contratacao-futura,https://app.sigapregao.com.br/contratacao-futura,rota,Contratações Futuras,0,37,19,,
+dashboard,https://app.sigapregao.com.br/dashboard,rota,,0,103,23,,
+dev-consumo-ia,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+disputa-CN,https://app.sigapregao.com.br/disputa/CN,rota,Disputa,0,28,21,,
+disputa-PCP,https://app.sigapregao.com.br/disputa/PCP,rota,Disputa,0,28,21,,
+disputas-encerradas,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+disputas-maquina-de-lances,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+empresas,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+feature-flags,https://app.sigapregao.com.br/feature-flags,rota,,0,0,0,,
+fornec-ia,https://app.sigapregao.com.br/fornec-ia,rota,Encontrar fornecedor,1,6,0,,
+historico-compras,https://app.sigapregao.com.br/historico-compras,rota,Histórico de Compras,2,63,20,,
+integracoes,https://app.sigapregao.com.br/integracoes,rota,Notificações,0,27,17,,
+logs,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+logs-maquina-de-lances,https://app.sigapregao.com.br/logs-maquina-de-lances,rota,Notificações,0,7,13,,
+meus-arquivos,https://app.sigapregao.com.br/meus-arquivos,rota,Negócios arquivados,0,30,22,,
+meus-dados,https://app.sigapregao.com.br/meus-dados,rota,Notificações,3,37,19,,
+meus-documentos,https://app.sigapregao.com.br/meus-documentos,rota,Notificações,1,48,19,,
+meus-negocios,https://app.sigapregao.com.br/meus/negocios,rota,,22,78,20,,
+minha-agenda,https://app.sigapregao.com.br/minha/agenda,rota,,2,91,21,,
+minhas-empresas,https://app.sigapregao.com.br/minhas-empresas,rota,Minhas empresas 1,0,31,19,,
+notificacao-lote,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+oportunidades,https://app.sigapregao.com.br/oportunidades,rota,,99,126,28,,
+orgaos,https://app.sigapregao.com.br/orgaos,rota,Órgãos BETA,50,66,69,,
+pagometro,https://app.sigapregao.com.br/orgaos?pagometro=1,rota,Órgãos BETA,50,66,69,,
+pecas-juridicas,https://app.sigapregao.com.br/pecas-juridicas,rota,Peças Jurídicas,1,32,42,,
+produtos-marcas,https://app.sigapregao.com.br/produtos-marcas,rota,Produtos e Marcas,1,29,29,,
+quadros,https://app.sigapregao.com.br/quadros,rota,,22,78,20,,
+regra-plano,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+request-logs,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+suporte,https://app.sigapregao.com.br/suporte,rota,Notificações,0,28,19,,

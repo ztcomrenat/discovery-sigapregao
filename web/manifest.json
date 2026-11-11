@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-11-11T16:25:00-03:00",
+  "waves_completed": [
+    "onda-0",
+    "onda-1-descoberta",
+    "onda-2-detalhe",
+    "onda-3-negocios",
+    "onda-4-disputa",
+    "onda-5-analise",
+    "onda-6-ia",
+    "onda-7-documentos",
+    "onda-8-integracoes",
+    "onda-9-assinatura",
+    "onda-10-admin"
+  ],
+  "total_routes": 63,
+  "accessible": 46,
+  "gated": 9,
+  "role_blocked": 16,
+  "inaccessible": [
+    {
+      "slug": "admin-access-logs",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "admin-activity-logs",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "admin-beta-features",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "admin-chamados",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "admin-frontend-errors",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "admin-monitoramento-atas",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "admin-templates-de-tarefas",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "clientes",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "comprasnet",
+      "reason": "nav_timeout_repeated"
+    },
+    {
+      "slug": "dev-consumo-ia",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "disputas-encerradas",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "disputas-maquina-de-lances",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "empresas",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "logs",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "notificacao-lote",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "regra-plano",
+      "reason": "403 forbidden"
+    },
+    {
+      "slug": "request-logs",
+      "reason": "403 forbidden"
+    }
+  ]
+}
