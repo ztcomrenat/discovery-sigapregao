@@ -1,0 +1,1001 @@
+[
+  {
+    "method": "GET",
+    "path": "/app/api/agente-prospeccao",
+    "statuses": [
+      204
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": null
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/agente-prospeccao/dados-extras",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "{\"ufs\":[{\"selected\":false,\"nome\":\"GO\"},{\"selected\":false,\"nome\":\"SP\"},{\"selected\":false,\"nome\":\"SC\"},{\"selected\":false,\"nome\":\"ES\"},{\"selected\":false,\"nome\":\"MG\"},{\"selected\":false,\"nome\":\"PE\"},{\"sele"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/atas/analise-mercado/primeira-parte",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "analise-mercado"
+    ],
+    "route_count": 1,
+    "sample_query": "descricao=&aberturaInicial=2025-11-01&aberturaFinal=2026-11-11&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitant",
+    "sample_body": null,
+    "response_shape": {
+      "mapa": "list",
+      "mensal": "list",
+      "totalContratado": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/atas/analise-mercado/segunda-parte",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "analise-mercado"
+    ],
+    "route_count": 1,
+    "sample_query": "descricao=&aberturaInicial=2025-11-01&aberturaFinal=2026-11-11&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitant",
+    "sample_body": null,
+    "response_shape": {
+      "processos": "int",
+      "sugestoes": "int",
+      "correspondencias": "int",
+      "totalOrgaos": "int",
+      "totalEmpresas": "int",
+      "totalMarcas": "int"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/atas/baixa-concorrencia/:id/false",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "baixa-concorrencia"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "[{\"qtd\":1266,\"item\":\"Fruta\",\"valor\":16087.982391387224,\"valorFormatado\":\"R$ 16.087,98\"},{\"qtd\":1225,\"item\":\"Insulina\",\"valor\":103793.68284934081,\"valorFormatado\":\"R$ 103.793,68\"},{\"qtd\":1179,\"item\":\"C"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/atas/historico-compras/:id",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "conector-ia",
+      "historico-compras",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades"
+    ],
+    "route_count": 7,
+    "sample_query": "descricao=&aberturaInicial=&aberturaFinal=&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitantes=",
+    "sample_body": null,
+    "response_shape": "{\"total\":3194070,\"items\":[{\"id\":\"CN_38026506001072026_1\",\"abertura\":\"2026-05-28T08:00:00\",\"codigoOrgao\":\"CN-380265\",\"descricao\":\"Colcha Cama\",\"descricaoDetalhada\":\"tipo: cobertor, material: 100% polié"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/capag/buscar",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "capacidade-pagamento"
+    ],
+    "route_count": 1,
+    "sample_query": "pesquisa=&uf=&notaCapag=&nota1=&nota2=&nota3=&page=0",
+    "sample_body": null,
+    "response_shape": "[{\"sugestao\":null,\"prefeitura\":\"Abadia de Goiás\",\"codIbge\":\"5200050\",\"uf\":\"Goiás\",\"ufs\":null,\"populacao\":0,\"indicador1\":3.52,\"nota1\":\"A\",\"notas1\":null,\"indicador2\":85.97,\"nota2\":\"B\",\"notas2\":null,\"ind"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/cliente/profile-picture",
+    "statuses": [
+      204
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "ambientes",
+      "analise-empresa",
+      "analise-mercado",
+      "ative-assinatura",
+      "b2g-club",
+      "b2g-fornecedor",
+      "b2g-juridico",
+      "b2g-leitor",
+      "b2g-monitor",
+      "b2g-prospecta",
+      "baixa-concorrencia",
+      "cadastro",
+      "capacidade-pagamento",
+      "comprasnet",
+      "conector-ia",
+      "contratacao-futura",
+      "dashboard",
+      "disputa-CN",
+      "disputa-PCP",
+      "disputas-maquina-de-lances",
+      "editar-empresa-17686",
+      "feature-flags",
+      "fornec-ia",
+      "historico-compras",
+      "integracoes",
+      "login",
+      "logs-maquina-de-lances",
+      "meus-arquivos",
+      "meus-dados",
+      "meus-documentos",
+      "meus-negocios",
+      "minha-agenda",
+      "minhas-empresas",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "orgaos",
+      "pagometro",
+      "pecas-juridicas",
+      "planos",
+      "politica-de-privacidade",
+      "produtos-marcas",
+      "quadros",
+      "reative-assinatura",
+      "recuperar-senha",
+      "termos-de-uso"
+    ],
+    "route_count": 48,
+    "sample_query": "ts=1794417033392",
+    "sample_body": null,
+    "response_shape": null
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/cliente/regra-plano",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "analise-mercado",
+      "ative-assinatura",
+      "cadastro",
+      "editar-empresa-17686",
+      "login",
+      "logs-maquina-de-lances",
+      "planos",
+      "politica-de-privacidade",
+      "reative-assinatura",
+      "recuperar-senha",
+      "termos-de-uso"
+    ],
+    "route_count": 11,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "id": "int",
+      "nivelRegra": "int",
+      "idCliente": "int",
+      "nomePlano": "NoneType",
+      "nomeRegra": "str",
+      "contemPalavra": "str",
+      "dominioEmail": "NoneType",
+      "qtdEmpresas": "int",
+      "qtdNegocios": "int",
+      "qtdJornais": "int",
+      "pecasJuridicas": "bool",
+      "analiseDados": "bool",
+      "superOportunidades": "bool",
+      "analisarEmpresa": "bool",
+      "historicoItens": "bool",
+      "b2GAnalytics": "bool",
+      "b2GClub": "bool",
+      "disputaComprasnet": "bool",
+      "filtrosCotacoes": "bool",
+      "pesquisaOportunidades": "bool",
+      "produtos": "bool",
+      "alertasWhatsapp": "bool",
+      "alertaStatusComprasnet": "bool",
+      "alertaAberturaComprasnet": "bool",
+      "alertaAvisosComprasnet": "bool",
+      "alertaEsclarecimentosComprasnet": "bool",
+      "alertaImpugnacoesComprasnet": "bool",
+      "alertaSuspensaoComprasnet": "bool",
+      "alertaChatComprasnet": "bool",
+      "validade": "NoneType",
+      "funcionarioLiberou": "NoneType",
+      "motivoLiberacao": "NoneType",
+      "espacoDocumentos": "int",
+      "qtdPerguntasChatEditalIA": "int",
+      "qtdPerguntasFornecedoresIA": "int",
+      "soFuncionarComAssinatura": "bool",
+      "dataCriacao": "str",
+      "monitorB2g": "bool",
+      "templatesChecklist": "bool",
+      "qtdWorkspaces": "int",
+      "qtdMembrosPorWorkspace": "int",
+      "llms": "bool",
+      "qtdRequisicoesIa": "int",
+      "talkAutomacoes": "bool",
+      "talkAgentes": "bool",
+      "pagometro": "bool",
+      "extensaoNomePlano": "NoneType"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/cliente/user-data",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "ambientes",
+      "analise-empresa",
+      "b2g-club",
+      "b2g-fornecedor",
+      "b2g-juridico",
+      "b2g-leitor",
+      "b2g-monitor",
+      "b2g-prospecta",
+      "baixa-concorrencia",
+      "capacidade-pagamento",
+      "conector-ia",
+      "contratacao-futura",
+      "dashboard",
+      "disputa-CN",
+      "disputa-PCP",
+      "feature-flags",
+      "fornec-ia",
+      "historico-compras",
+      "integracoes",
+      "logs-maquina-de-lances",
+      "meus-arquivos",
+      "meus-dados",
+      "meus-documentos",
+      "meus-negocios",
+      "minha-agenda",
+      "minhas-empresas",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "orgaos",
+      "pagometro",
+      "pecas-juridicas",
+      "produtos-marcas",
+      "quadros"
+    ],
+    "route_count": 36,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "{\"id\":76831,\"nome\":\"Zenith Comércio\",\"email\":\"zenithcomutil@gmail.com\",\"telefone\":null,\"envioJornalAtivo\":true,\"monitoramentoAtivo\":true,\"admin\":false,\"funcoes\":[],\"regraPlano\":{\"id\":526,\"nivelRegra\":"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/docmanager",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "meus-documentos"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "docs": "list",
+      "dirs": "list"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/empresa",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "conector-ia",
+      "meus-dados",
+      "minhas-empresas",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "quadros"
+    ],
+    "route_count": 9,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "array[1]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/empresa/sup/:id",
+    "statuses": [
+      403
+    ],
+    "seen_in_routes": [
+      "feature-flags"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "message": "str",
+      "data": "NoneType"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/feature-flags",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "ambientes",
+      "analise-empresa",
+      "analise-mercado",
+      "ative-assinatura",
+      "b2g-club",
+      "b2g-fornecedor",
+      "b2g-juridico",
+      "b2g-leitor",
+      "b2g-monitor",
+      "b2g-prospecta",
+      "baixa-concorrencia",
+      "cadastro",
+      "capacidade-pagamento",
+      "conector-ia",
+      "contratacao-futura",
+      "dashboard",
+      "disputa-CN",
+      "disputa-PCP",
+      "editar-empresa-17686",
+      "feature-flags",
+      "fornec-ia",
+      "historico-compras",
+      "integracoes",
+      "login",
+      "logs-maquina-de-lances",
+      "meus-arquivos",
+      "meus-dados",
+      "meus-documentos",
+      "meus-negocios",
+      "minha-agenda",
+      "minhas-empresas",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "orgaos",
+      "pagometro",
+      "pecas-juridicas",
+      "planos",
+      "politica-de-privacidade",
+      "produtos-marcas",
+      "quadros",
+      "reative-assinatura",
+      "recuperar-senha",
+      "termos-de-uso"
+    ],
+    "route_count": 46,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "features": "list",
+      "superCrawlWebUrl": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/fornecedor/conversa",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "conector-ia",
+      "fornec-ia",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "quadros"
+    ],
+    "route_count": 8,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "threadId": "NoneType",
+      "mensagens": "NoneType"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/ia-sigapregao/exists/:id",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "conector-ia",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194"
+    ],
+    "route_count": 5,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": null
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/ia-sigapregao/saldo",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "conector-ia",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "quadros"
+    ],
+    "route_count": 8,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "id": "int",
+      "idCliente": "int",
+      "qtdUsada": "int",
+      "data": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/jornal",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "oportunidades"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": null
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/juridico/search",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "pecas-juridicas"
+    ],
+    "route_count": 1,
+    "sample_query": "palavras=&tipos=&uasg=&somenteNovaLei=false&page=0",
+    "sample_body": null,
+    "response_shape": "{\"content\":[{\"id\":0,\"tipo\":\"R\",\"conteudo\":\"<br> Ào<br> MUNICÍPIO DE NIQUELÂNDIA <br> DEPARTAMENTO DE LICITAÇÃO<br> Att. Sr. Presidente da Licitação <br> <br> Ref.: PREGÃO ELETRÔNICO Nº 010/2021<br> <b"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/licitacao/:id/indice-pagamento",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "conector-ia",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194"
+    ],
+    "route_count": 5,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "disponivel": "bool",
+      "situacao": "str",
+      "orgaoNome": "NoneType",
+      "orgaoEsfera": "NoneType",
+      "viaEnteResponsavel": "bool",
+      "cobertura": "NoneType",
+      "cnpjOrgao": "NoneType",
+      "fonteCnpj": "NoneType",
+      "bloqueado": "bool",
+      "enteNome": "NoneType",
+      "enteUf": "NoneType",
+      "enteEsfera": "NoneType",
+      "indiceValor": "NoneType",
+      "indicePerfil": "NoneType",
+      "anoExercicio": "NoneType",
+      "pilares": "list",
+      "aviso": "NoneType",
+      "assinarUrl": "NoneType"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/live-events/thumbnail/bGl2ZS1ldmVudHMvMjAyNi8wNi8wOC8wN2ZjODBhMzhhZTc0ZGZjODhlYzFhMDdiNmU4MGQ5Ny5qcGc",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "dashboard"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "����\u0000\u0010JFIF\u0000\u0001\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0003�\u0006@\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/live-events/thumbnail/bGl2ZS1ldmVudHMvMjAyNi8xMS8wNC9kNTA1MmUwMGQyODU0NjQ5OWMyODFjMGFkMjIyZTg1NC5qcGc",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "dashboard"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "����\u0000\u0010JFIF\u0000\u0001\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0003�\u0006@\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/live-events/thumbnail/bGl2ZS1ldmVudHMvMjAyNi8xMS8xMC81ZTU2ZmY3ODQ1Mjk0YzFjYWIyNmMxNDdkYzk0NzQ2OC5qcGc",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "dashboard"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "����\u0000\u0010JFIF\u0000\u0001\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0003�\u0006@\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/negocio",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "orgaos",
+      "pagometro",
+      "quadros"
+    ],
+    "route_count": 3,
+    "sample_query": "tipos=oportunidade,qualificacao,disputa,classificacao,contrato",
+    "sample_body": null,
+    "response_shape": "[{\"id\":2097274,\"nome\":\"Licitações-e - Pregão eletrônico Nº 135/2025/2025 | 000000001 - PREFEITURA MUNICIPAL DE APARECIDA DE GOIANIA\",\"clienteId\":76831,\"processoId\":5380239,\"empresaId\":0,\"tipoNegocio\":"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/negocio/arquivados",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "meus-arquivos"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": null
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/notificacao-push/false",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "ambientes",
+      "analise-empresa",
+      "analise-mercado",
+      "ative-assinatura",
+      "b2g-club",
+      "b2g-fornecedor",
+      "b2g-juridico",
+      "b2g-leitor",
+      "b2g-monitor",
+      "b2g-prospecta",
+      "baixa-concorrencia",
+      "cadastro",
+      "capacidade-pagamento",
+      "comprasnet",
+      "conector-ia",
+      "contratacao-futura",
+      "dashboard",
+      "disputa-CN",
+      "disputa-PCP",
+      "disputas-maquina-de-lances",
+      "editar-empresa-17686",
+      "feature-flags",
+      "fornec-ia",
+      "historico-compras",
+      "integracoes",
+      "login",
+      "logs-maquina-de-lances",
+      "meus-arquivos",
+      "meus-dados",
+      "meus-documentos",
+      "meus-negocios",
+      "minha-agenda",
+      "minhas-empresas",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "orgaos",
+      "pagometro",
+      "pecas-juridicas",
+      "planos",
+      "politica-de-privacidade",
+      "produtos-marcas",
+      "quadros",
+      "reative-assinatura",
+      "recuperar-senha",
+      "termos-de-uso"
+    ],
+    "route_count": 48,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "[{\"id\":20297701,\"clienteId\":76831,\"negocioId\":0,\"titulo\":\"ÚLTIMOS INGRESSOS\",\"mensagem\":\"A Imersão Presencial em São Paulo - SP é nessa semana.\",\"link\":\"https://licitanteextremo.com.br/nova-onda/\",\"vi"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/orgao-ficha/lista",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "orgaos",
+      "pagometro"
+    ],
+    "route_count": 2,
+    "sample_query": "termo=&pagina=0",
+    "sample_body": null,
+    "response_shape": "{\"itens\":[{\"cnpj\":\"30631325000133\",\"nome\":\"EDUCACAO\",\"esfera\":\"M\",\"poder\":\"N\",\"uf\":null,\"municipio\":null,\"ente\":{\"cnpj\":\"30631325000133\",\"nome\":\"EDUCACAO\",\"proprio\":true},\"uasgs\":[],\"totalUasgs\":0,\"li"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/orgao/buscar-antecipagov",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "orgaos",
+      "pagometro"
+    ],
+    "route_count": 2,
+    "sample_query": "orgao=&from=0",
+    "sample_body": null,
+    "response_shape": "[{\"id\":0,\"orgaoSuperior\":\"Advocacia-Geral da União\",\"orgaoSuperiorMatch\":null,\"orgaoSuperiorPrefix\":null,\"orgao\":\"Advocacia-Geral da União\",\"orgaoMatch\":null,\"orgaoPrefix\":null,\"naturezaJuridica\":\"Adm"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/pca/anos",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "contratacao-futura"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "array[6]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/pca/categorias",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "contratacao-futura"
+    ],
+    "route_count": 1,
+    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "sample_body": null,
+    "response_shape": "array[8]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/pca/dados-gerais",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "contratacao-futura"
+    ],
+    "route_count": 1,
+    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "sample_body": null,
+    "response_shape": {
+      "totalItens": "str",
+      "totalOrgaos": "str",
+      "valorTotalGasto": "str",
+      "totalPcas": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/pca/esfera-poder/false",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "contratacao-futura"
+    ],
+    "route_count": 1,
+    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "sample_body": null,
+    "response_shape": "array[4]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/pca/esfera-poder/true",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "contratacao-futura"
+    ],
+    "route_count": 1,
+    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "sample_body": null,
+    "response_shape": "array[5]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/pca/periodo",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "contratacao-futura"
+    ],
+    "route_count": 1,
+    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "sample_body": null,
+    "response_shape": "array[12]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/processo-licitatorio/id/:id",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "conector-ia",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194"
+    ],
+    "route_count": 5,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "{\"id\":5467365,\"portal\":\"PNCP\",\"fontePncp\":\"IPM Sistemas\",\"modalidade\":1,\"uasg\":\"04001\",\"numero\":\"PCE 11/2026\",\"status\":\"\",\"situacao\":\"Divulgada no PNCP - Aguardando abertura da sessão pública\",\"objeto"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/processo/pub/processo",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "conector-ia",
+      "meus-dados",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194"
+    ],
+    "route_count": 5,
+    "sample_query": "id=5467365",
+    "sample_body": null,
+    "response_shape": "{\"id\":5467365,\"portal\":\"PNCP\",\"fontePncp\":\"IPM Sistemas\",\"modalidade\":1,\"uasg\":\"04001\",\"numero\":\"PCE 11/2026\",\"status\":\"\",\"situacao\":\"Divulgada no PNCP - Aguardando abertura da sessão pública\",\"objeto"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/produto",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "produtos-marcas"
+    ],
+    "route_count": 1,
+    "sample_query": "nome=&page=0",
+    "sample_body": null,
+    "response_shape": {
+      "content": "list",
+      "pageable": "dict",
+      "last": "bool",
+      "totalElements": "int",
+      "totalPages": "int",
+      "size": "int",
+      "number": "int",
+      "first": "bool",
+      "sort": "dict",
+      "numberOfElements": "int",
+      "empty": "bool"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/siga-client/pub/v",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "disputa-CN",
+      "disputa-PCP"
+    ],
+    "route_count": 2,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "0.7.10"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/terms/pub",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "login",
+      "politica-de-privacidade",
+      "termos-de-uso"
+    ],
+    "route_count": 3,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "{\"sigapregaoContract\":{\"content\":\"**CONTRATO DE PRESTAÇÃO DE SERVIÇOS – PLATAFORMA SIGA PREGÃO (SaaS)**\\r\\n\\r\\n**PARTES CONTRATANTES:**\\r\\n\\r\\n**CONTRATANTE:** Pessoa física ou jurídica identificada n"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/terms/pub/changes",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "b2g-club"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": "{\"sigapregaoContract\":\"\",\"notAccepted\":[{\"id\":6,\"termKey\":\"tos\",\"termName\":\"Termos de uso\",\"termVersion\":\"1.4\",\"termHash\":\"cef23ed3589ca69c27a49713860cc8edd4bc9570444297ba28104cc3a19ac214\",\"summaryCha"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/workspace",
+    "statuses": [
+      404
+    ],
+    "seen_in_routes": [
+      "ambientes"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": null,
+    "response_shape": {
+      "data": "NoneType",
+      "message": "str"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/app/api/oportunidades",
+    "statuses": [
+      200
+    ],
+    "seen_in_routes": [
+      "oportunidades"
+    ],
+    "route_count": 1,
+    "sample_query": null,
+    "sample_body": "{\"tipoPeriodo\":\"abertura\",\"orgaos\":[],\"pesquisa\":\"\",\"excluir\":\"\",\"limitar\":\"\",\"dataInicial\":\"2026-11-11\",\"dataFinal\":\"2026-11-25\",\"valorMinimoDaCompra\":0,\"valorMaximoDaCompra\":0,\"valorMinimoDoItem\":0,\"valorMaximoDoItem\":0,\"qtdMaxItens\":0,\"somenteValoresSigilosos\":false,\"itensDesertos\":false,\"ufs\":[],\"portais\":[],\"modalidades\":[],\"superoportunidades\":false,\"participacaoExclusiva\":false,\"fontePncp\":\"\",\"orgaoCnpj\":\"\",\"excluirRegistroPreco\":false,\"modoDisputa\":\"\",\"tipoItem\":\"\",\"pesquisaAmpla\":false,",
+    "response_shape": "{\"content\":[{\"id\":5641228,\"portal\":\"PNCP\",\"fontePncp\":\"Governançabrasil Tecnologia e Gestão em Serviços\",\"modalidade\":1,\"uasg\":\"0000\",\"numero\":\"32 | Processo 58/2026\",\"codigo\":\"95725024000114-1-000058"
+  },
+  {
+    "method": "POST",
+    "path": "/cdn-cgi/rum",
+    "statuses": [
+      204
+    ],
+    "seen_in_routes": [
+      "agente-prospeccao",
+      "ambientes",
+      "analise-empresa",
+      "analise-mercado",
+      "ative-assinatura",
+      "b2g-club",
+      "b2g-fornecedor",
+      "b2g-juridico",
+      "b2g-leitor",
+      "b2g-monitor",
+      "b2g-prospecta",
+      "baixa-concorrencia",
+      "cadastro",
+      "capacidade-pagamento",
+      "comprasnet",
+      "conector-ia",
+      "contratacao-futura",
+      "dashboard",
+      "disputa-CN",
+      "disputa-PCP",
+      "disputas-maquina-de-lances",
+      "editar-empresa-17686",
+      "feature-flags",
+      "fornec-ia",
+      "historico-compras",
+      "integracoes",
+      "login",
+      "logs-maquina-de-lances",
+      "meus-arquivos",
+      "meus-dados",
+      "meus-documentos",
+      "meus-negocios",
+      "minha-agenda",
+      "minhas-empresas",
+      "oportunidade-5467365",
+      "oportunidade-5641228",
+      "oportunidade-5838194",
+      "oportunidades",
+      "orgaos",
+      "pagometro",
+      "pecas-juridicas",
+      "planos",
+      "politica-de-privacidade",
+      "produtos-marcas",
+      "quadros",
+      "reative-assinatura",
+      "recuperar-senha",
+      "termos-de-uso"
+    ],
+    "route_count": 48,
+    "sample_query": null,
+    "sample_body": "{\"startTime\":1794417033188,\"pageloadId\":\"af43d367-168e-4f37-85ca-a4dfd52fd22a\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://app.sigapregao.com.br/agente-prospeccao\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"145\",\"bv\":\"145\",\"ov\":\"11\"},\"memory\":{\"totalJSHeapSize\":74293069,\"usedJSHeapSize\":60303145,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":0,\"firstContentfulPaint\":0,\"timingsV2\":{\"nextHopProtocol\":\"h3\",\"domainLookupStart\":1,\"domainLookupEnd\":1,\"connec",
+    "response_shape": null
+  }
+]

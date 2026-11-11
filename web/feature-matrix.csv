@@ -67,3 +67,14 @@ oportunidade-5641228,https://app.sigapregao.com.br/oportunidade/5641228,rota,Pre
 oportunidade-5838194,https://app.sigapregao.com.br/oportunidade/5838194,rota,Pregão 34/2026 - Campos de Julio/MT,0,0,0,,Detalhe licitação
 editar-empresa-17686,https://app.sigapregao.com.br/editar-empresa/17686,rota,Editar empresa Zenith Soluções,0,0,0,,Formulário edição empresa (CNPJ 51.499.102/0001-34)
 resumo-licitacao-5467365,https://app.sigapregao.com.br/403,rota,403,0,0,0,permission-gate,403 genérico sem upsell - requer plano superior
+dashboard-state-86,dashboard,modal,Abrir meus negócios,0,0,0,,Estado: modal
+dashboard-state-48,dashboard,modal,Apagar todas,0,0,0,,Estado: modal
+oportunidades-state-81,oportunidades,modal,Encontrar licitação por número,0,0,0,,Estado: modal
+oportunidades-state-189,oportunidades,modal,Outros filtros,0,0,0,,Estado: modal
+meus-negocios-state-78,meus-negocios,modal,Kanban,0,0,0,,Estado: modal
+meus-negocios-state-79,meus-negocios,modal,Lista em breve,0,0,0,,Estado: modal
+orgaos-state-89,orgaos,modal,Todas as esferas Municipal Estadual Distrital Federal Estata,0,0,0,,Estado: modal
+minhas-empresas-state-79,minhas-empresas,modal,Adicionar empresa,0,0,0,,Estado: modal
+agente-prospeccao-state-123,agente-prospeccao,modal,CONFIGURAR,0,0,0,,Estado: modal
+minha-agenda-state-1003,minha-agenda,modal,Todas as empresas,0,0,0,,Estado: modal
+minha-agenda-state-1004,minha-agenda,modal,Hoje,0,0,0,,Estado: modal
