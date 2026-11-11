@@ -1,0 +1,822 @@
+{
+  "slug": "oportunidades",
+  "element_index": 70,
+  "trigger": {
+    "i": 70,
+    "tag": "BUTTON",
+    "role": null,
+    "type": "button",
+    "label": "",
+    "text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjos estará AO VIVO com nosso novo plano, o plano ULTRA, pra vo",
+    "href": null,
+    "disabled": false,
+    "cls": "ntf__alvo",
+    "x": 763,
+    "y": 861
+  },
+  "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo",
+  "state_type": "modal",
+  "elements_found": 80,
+  "elements": [
+    {
+      "tag": "A",
+      "role": null,
+      "text": "",
+      "cls": "logo",
+      "x": 0,
+      "y": 35,
+      "w": 181,
+      "h": 17
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 570,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "10",
+      "cls": "icon",
+      "x": 612,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 654,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "WhatsApp",
+      "cls": "",
+      "x": 461,
+      "y": 67,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Central de ajuda",
+      "cls": "",
+      "x": 461,
+      "y": 106,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Termo de uso",
+      "cls": "",
+      "x": 461,
+      "y": 144,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Política de privacidade",
+      "cls": "",
+      "x": 461,
+      "y": 182,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "",
+      "x": 696,
+      "y": 24,
+      "w": 20,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1438,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Apagar todas",
+      "cls": "ntf__limpar",
+      "x": 1390,
+      "y": 70,
+      "w": 82,
+      "h": 27
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMOS INGRESSOSontemA Imersão Presencial em São Paulo - SP é nessa semana.",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 108,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 114,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 781,
+      "y": 178,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá 6 diasA maior Black Friday da história já começou e você não",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 210,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 216,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 781,
+      "y": 280,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora nosso Monitoramento, está disponível também para o PCP, além do ",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 311,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 317,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTRA30/09Aproveite até às 23:59 de hoje, para garantir seu UPGR",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 380,
+      "w": 677,
+      "h": 87
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 386,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Ver as já visualizadas",
+      "cls": "a-link tw-text-sm tw-text-blue-600 dark:tw-text-sky-300 hover:tw-underline focus:tw-underline tw-cursor-pointer tw-outline-none",
+      "x": 1060,
+      "y": 213,
+      "w": 125,
+      "h": 15
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "s-input__field",
+      "x": 59,
+      "y": 126,
+      "w": 468,
+      "h": 28
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "s-submit s-iconbtn",
+      "x": 535,
+      "y": 126,
+      "w": 32,
+      "h": 28
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Filtros",
+      "cls": "acao-busca",
+      "x": 584,
+      "y": 118,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Por nº",
+      "cls": "acao-busca",
+      "x": 636,
+      "y": 118,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Jornais",
+      "cls": "acao-busca",
+      "x": 688,
+      "y": 118,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "drp__input",
+      "x": 148,
+      "y": 172,
+      "w": 257,
+      "h": 40
+    },
+    {
+      "tag": "DIV",
+      "role": "button",
+      "text": "Dispensa eletrônica N° 34/2025 - Câmara Municipal de Catu  / BA",
+      "cls": "item-card-header op-titulo",
+      "x": 32,
+      "y": 302,
+      "w": 684,
+      "h": 20
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1438,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "s-input__field",
+      "x": 891,
+      "y": 199,
+      "w": 448,
+      "h": 28
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "s-submit s-iconbtn",
+      "x": 1347,
+      "y": 199,
+      "w": 32,
+      "h": 28
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Excluir",
+      "cls": "a-link small-link-siga",
+      "x": 1269,
+      "y": 246,
+      "w": 42,
+      "h": 18
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Limitar",
+      "cls": "a-link small-link-siga",
+      "x": 1327,
+      "y": 246,
+      "w": 43,
+      "h": 18
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "drp__input",
+      "x": 788,
+      "y": 393,
+      "w": 659,
+      "h": 40
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Criar jornal",
+      "cls": "btn-theme btn-theme--md btn-theme--secondary m-2",
+      "x": 1012,
+      "y": 386,
+      "w": 111,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Buscar",
+      "cls": "btn-theme btn-theme--md btn-theme--primary m-2",
+      "x": 1139,
+      "y": 386,
+      "w": 84,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Voltar",
+      "cls": "btn-theme btn-theme--md btn-theme--secondary",
+      "x": 1005,
+      "y": 281,
+      "w": 77,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Criar novo jornal",
+      "cls": "btn-theme btn-theme--md btn-theme--primary",
+      "x": 1094,
+      "y": 281,
+      "w": 147,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1438,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 775,
+      "y": 124,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 914,
+      "y": 124,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1158,
+      "y": 124,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1299,
+      "y": 124,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 795,
+      "y": 162,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 908,
+      "y": 162,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1058,
+      "y": 162,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1230,
+      "y": 162,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 793,
+      "y": 200,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 996,
+      "y": 200,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1141,
+      "y": 200,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1327,
+      "y": 200,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 806,
+      "y": 238,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 968,
+      "y": 238,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1255,
+      "y": 238,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 781,
+      "y": 276,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1024,
+      "y": 276,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1195,
+      "y": 276,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1357,
+      "y": 276,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1051,
+      "y": 314,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Voltar",
+      "cls": "btn-siga-grey m-1",
+      "x": 1020,
+      "y": 418,
+      "w": 81,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Confirmar",
+      "cls": "btn-siga-green m-1",
+      "x": 1109,
+      "y": 418,
+      "w": 106,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1438,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 858,
+      "y": 230,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 998,
+      "y": 230,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1242,
+      "y": 230,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 819,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 986,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1100,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1250,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 839,
+      "y": 306,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1054,
+      "y": 306,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1257,
+      "y": 306,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 886,
+      "y": 344,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1072,
+      "y": 344,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1193,
+      "y": 344,
+      "w": 1,
+      "h": 1
+    }
+  ]
+}

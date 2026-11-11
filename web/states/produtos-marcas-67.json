@@ -1,0 +1,322 @@
+{
+  "slug": "produtos-marcas",
+  "element_index": 67,
+  "trigger": {
+    "i": 67,
+    "tag": "BUTTON",
+    "role": null,
+    "type": "button",
+    "label": "",
+    "text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na live de lançamento do novo plano do Siga Prgão.",
+    "href": null,
+    "disabled": false,
+    "cls": "ntf__alvo",
+    "x": 763,
+    "y": 759
+  },
+  "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv",
+  "state_type": "modal",
+  "elements_found": 30,
+  "elements": [
+    {
+      "tag": "A",
+      "role": null,
+      "text": "",
+      "cls": "logo",
+      "x": 0,
+      "y": 35,
+      "w": 181,
+      "h": 17
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 570,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "10",
+      "cls": "icon",
+      "x": 612,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 654,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "WhatsApp",
+      "cls": "",
+      "x": 461,
+      "y": 67,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Central de ajuda",
+      "cls": "",
+      "x": 461,
+      "y": 106,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Termo de uso",
+      "cls": "",
+      "x": 461,
+      "y": 144,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Política de privacidade",
+      "cls": "",
+      "x": 461,
+      "y": 182,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "",
+      "x": 696,
+      "y": 24,
+      "w": 20,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1438,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Apagar todas",
+      "cls": "ntf__limpar",
+      "x": 1390,
+      "y": 70,
+      "w": 82,
+      "h": 27
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMOS INGRESSOSontemA Imersão Presencial em São Paulo - SP é nessa semana.",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 108,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 114,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 781,
+      "y": 178,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá 6 diasA maior Black Friday da história já começou e você não",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 210,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 216,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 781,
+      "y": 280,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora nosso Monitoramento, está disponível também para o PCP, além do ",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 311,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 317,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTRA30/09Aproveite até às 23:59 de hoje, para garantir seu UPGR",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 380,
+      "w": 677,
+      "h": 87
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 386,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ZCTitularZenithzenithcomutil@gmail.com",
+      "cls": "mlc__conta",
+      "x": 5,
+      "y": 107,
+      "w": 311,
+      "h": 69
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Agentes de IATrabalham por você todo dia",
+      "cls": "mlc__ia-topo",
+      "x": 5,
+      "y": 190,
+      "w": 311,
+      "h": 54
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Oportunidades",
+      "cls": "mlc__section-title mlc__section-title--btn",
+      "x": 0,
+      "y": 266,
+      "w": 321,
+      "h": 44
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Negócios",
+      "cls": "mlc__section-title mlc__section-title--btn",
+      "x": 0,
+      "y": 327,
+      "w": 321,
+      "h": 44
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Análise",
+      "cls": "mlc__section-title mlc__section-title--btn",
+      "x": 0,
+      "y": 388,
+      "w": 321,
+      "h": 44
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Ver as já visualizadas",
+      "cls": "a-link tw-text-sm tw-text-blue-600 dark:tw-text-sky-300 hover:tw-underline focus:tw-underline tw-cursor-pointer tw-outline-none",
+      "x": 1060,
+      "y": 213,
+      "w": 125,
+      "h": 15
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 114,
+      "y": 290,
+      "w": 520,
+      "h": 50
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 705,
+      "y": 378,
+      "w": 15,
+      "h": 17
+    }
+  ]
+}

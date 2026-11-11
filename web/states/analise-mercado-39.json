@@ -1,0 +1,772 @@
+{
+  "slug": "analise-mercado",
+  "element_index": 39,
+  "trigger": {
+    "i": 39,
+    "tag": "A",
+    "role": "menuitem",
+    "type": null,
+    "label": "",
+    "text": "",
+    "href": "/politica-de-privacidade",
+    "disabled": false,
+    "cls": "",
+    "x": 461,
+    "y": 182
+  },
+  "trigger_text": "el_39",
+  "state_type": "modal",
+  "elements_found": 75,
+  "elements": [
+    {
+      "tag": "A",
+      "role": null,
+      "text": "",
+      "cls": "logo",
+      "x": 0,
+      "y": 35,
+      "w": 181,
+      "h": 17
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 570,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "10",
+      "cls": "icon",
+      "x": 612,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 654,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "WhatsApp",
+      "cls": "",
+      "x": 461,
+      "y": 67,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Central de ajuda",
+      "cls": "",
+      "x": 461,
+      "y": 106,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Termo de uso",
+      "cls": "",
+      "x": 461,
+      "y": 144,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Política de privacidade",
+      "cls": "",
+      "x": 461,
+      "y": 182,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "",
+      "x": 696,
+      "y": 24,
+      "w": 20,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1438,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Apagar todas",
+      "cls": "ntf__limpar",
+      "x": 1390,
+      "y": 70,
+      "w": 82,
+      "h": 27
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMOS INGRESSOSontemA Imersão Presencial em São Paulo - SP é nessa semana.",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 108,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 114,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 781,
+      "y": 178,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá 6 diasA maior Black Friday da história já começou e você não",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 210,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 216,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 781,
+      "y": 280,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora nosso Monitoramento, está disponível também para o PCP, além do ",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 311,
+      "w": 677,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 317,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTRA30/09Aproveite até às 23:59 de hoje, para garantir seu UPGR",
+      "cls": "ntf__alvo",
+      "x": 763,
+      "y": 380,
+      "w": 677,
+      "h": 87
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1440,
+      "y": 386,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Ver as já visualizadas",
+      "cls": "a-link tw-text-sm tw-text-blue-600 dark:tw-text-sky-300 hover:tw-underline focus:tw-underline tw-cursor-pointer tw-outline-none",
+      "x": 1060,
+      "y": 213,
+      "w": 125,
+      "h": 15
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "drp__input",
+      "x": 43,
+      "y": 130,
+      "w": 662,
+      "h": 40
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "s-input__field",
+      "x": 75,
+      "y": 286,
+      "w": 592,
+      "h": 28
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "s-submit s-iconbtn",
+      "x": 675,
+      "y": 286,
+      "w": 32,
+      "h": 28
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Pesquisa Avançada",
+      "cls": "a-link tw-text-xs sm:tw-text-sm tw-whitespace-nowrap tw-shrink-0",
+      "x": 235,
+      "y": 333,
+      "w": 131,
+      "h": 20
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Contratação Futura",
+      "cls": "a-link tw-text-xs sm:tw-text-sm tw-whitespace-nowrap tw-shrink-0",
+      "x": 383,
+      "y": 333,
+      "w": 130,
+      "h": 20
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1448,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": -48,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": -48,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "drp__nav",
+      "x": 206,
+      "y": 96,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "SELECT",
+      "role": null,
+      "text": "JanFevMarAbrMaiJunJulAgoSetOutNovDez",
+      "cls": "drp__select",
+      "x": 398,
+      "y": 101,
+      "w": 42,
+      "h": 26
+    },
+    {
+      "tag": "SELECT",
+      "role": null,
+      "text": "2020202120222023202420252026",
+      "cls": "drp__select",
+      "x": 442,
+      "y": 101,
+      "w": 49,
+      "h": 26
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "drp__nav",
+      "x": 502,
+      "y": 96,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Hoje",
+      "cls": "drp__chip",
+      "x": 249,
+      "y": 142,
+      "w": 48,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Próximos 7 Dias",
+      "cls": "drp__chip",
+      "x": 303,
+      "y": 142,
+      "w": 113,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Próximos 30 Dias",
+      "cls": "drp__chip",
+      "x": 421,
+      "y": 142,
+      "w": 121,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Esse mês",
+      "cls": "drp__chip",
+      "x": 352,
+      "y": 181,
+      "w": 76,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Todo o período",
+      "cls": "drp__chip",
+      "x": 434,
+      "y": 181,
+      "w": 108,
+      "h": 33
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "27",
+      "cls": "drp__day is-other",
+      "x": 206,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "28",
+      "cls": "drp__day is-other",
+      "x": 255,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "29",
+      "cls": "drp__day is-other",
+      "x": 304,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "30",
+      "cls": "drp__day is-other",
+      "x": 353,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "31",
+      "cls": "drp__day is-other",
+      "x": 401,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "1",
+      "cls": "drp__day is-selected is-start",
+      "x": 450,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "2",
+      "cls": "drp__day is-in-range",
+      "x": 499,
+      "y": 254,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "3",
+      "cls": "drp__day is-in-range",
+      "x": 206,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "4",
+      "cls": "drp__day is-in-range",
+      "x": 255,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "5",
+      "cls": "drp__day is-in-range",
+      "x": 304,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "6",
+      "cls": "drp__day is-in-range",
+      "x": 353,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "7",
+      "cls": "drp__day is-in-range",
+      "x": 401,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "8",
+      "cls": "drp__day is-in-range",
+      "x": 450,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "9",
+      "cls": "drp__day is-in-range",
+      "x": 499,
+      "y": 292,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "10",
+      "cls": "drp__day is-in-range",
+      "x": 206,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "11",
+      "cls": "drp__day is-in-range",
+      "x": 255,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "12",
+      "cls": "drp__day is-in-range",
+      "x": 304,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "13",
+      "cls": "drp__day is-in-range",
+      "x": 353,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "14",
+      "cls": "drp__day is-in-range",
+      "x": 401,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "15",
+      "cls": "drp__day is-in-range",
+      "x": 450,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "16",
+      "cls": "drp__day is-in-range",
+      "x": 499,
+      "y": 330,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "17",
+      "cls": "drp__day is-in-range",
+      "x": 206,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "18",
+      "cls": "drp__day is-in-range",
+      "x": 255,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "19",
+      "cls": "drp__day is-in-range",
+      "x": 304,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "20",
+      "cls": "drp__day is-in-range",
+      "x": 353,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "21",
+      "cls": "drp__day is-in-range",
+      "x": 401,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "22",
+      "cls": "drp__day is-in-range",
+      "x": 450,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "23",
+      "cls": "drp__day is-in-range",
+      "x": 499,
+      "y": 368,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "24",
+      "cls": "drp__day is-in-range",
+      "x": 206,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "25",
+      "cls": "drp__day is-in-range",
+      "x": 255,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "26",
+      "cls": "drp__day is-in-range",
+      "x": 304,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "27",
+      "cls": "drp__day is-in-range",
+      "x": 353,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "28",
+      "cls": "drp__day is-in-range",
+      "x": 401,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "29",
+      "cls": "drp__day is-in-range",
+      "x": 450,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "30",
+      "cls": "drp__day is-in-range",
+      "x": 499,
+      "y": 406,
+      "w": 43,
+      "h": 32
+    }
+  ]
+}

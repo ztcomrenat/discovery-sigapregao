@@ -30,7 +30,7 @@ b2g-prospecta,https://app.sigapregao.com.br/b2g-prospecta,rota,B2G Prospecta,0,3
 baixa-concorrencia,https://app.sigapregao.com.br/baixa-concorrencia,rota,Baixa Concorrencia,4,29,21,,
 capacidade-pagamento,https://app.sigapregao.com.br/capacidade-pagamento,rota,Capacidade de Pagamento dos Municípios,40,31,21,,
 clientes,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
-comprasnet,https://app.sigapregao.com.br/comprasnet,rota,,0,0,0,,Nav timeout
+comprasnet,https://app.sigapregao.com.br/403,rota,403,0,0,0,permission-gate,Redireciona para /403. Rota funcional é /disputa/CN
 conector-ia,https://app.sigapregao.com.br/conector-ia,rota,Conector de IA,0,30,24,gate,GATE premium
 contratacao-futura,https://app.sigapregao.com.br/contratacao-futura,rota,Contratações Futuras,0,37,19,,
 dashboard,https://app.sigapregao.com.br/dashboard,rota,,0,103,23,,
@@ -38,7 +38,7 @@ dev-consumo-ia,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admi
 disputa-CN,https://app.sigapregao.com.br/disputa/CN,rota,Disputa,0,28,21,,
 disputa-PCP,https://app.sigapregao.com.br/disputa/PCP,rota,Disputa,0,28,21,,
 disputas-encerradas,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
-disputas-maquina-de-lances,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
+disputas-maquina-de-lances,https://app.sigapregao.com.br/403,rota,403,0,0,0,permission-gate,403 genérico sem upsell - gate de permissão puro
 empresas,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
 feature-flags,https://app.sigapregao.com.br/feature-flags,rota,,0,0,0,,
 fornec-ia,https://app.sigapregao.com.br/fornec-ia,rota,Encontrar fornecedor,1,6,0,,
@@ -62,3 +62,8 @@ quadros,https://app.sigapregao.com.br/quadros,rota,,22,78,20,,
 regra-plano,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
 request-logs,https://app.sigapregao.com.br/403,rota,,0,0,0,role-block,403 admin
 suporte,https://app.sigapregao.com.br/suporte,rota,Notificações,0,28,19,,
+oportunidade-5467365,https://app.sigapregao.com.br/oportunidade/5467365,rota,Pregão PCE 11/2026 - pneus,0,0,0,,Detalhe licitação - itens + histórico em página única
+oportunidade-5641228,https://app.sigapregao.com.br/oportunidade/5641228,rota,Pregão 32/2026 - Prefeitura PR,0,0,0,,Detalhe licitação
+oportunidade-5838194,https://app.sigapregao.com.br/oportunidade/5838194,rota,Pregão 34/2026 - Campos de Julio/MT,0,0,0,,Detalhe licitação
+editar-empresa-17686,https://app.sigapregao.com.br/editar-empresa/17686,rota,Editar empresa Zenith Soluções,0,0,0,,Formulário edição empresa (CNPJ 51.499.102/0001-34)
+resumo-licitacao-5467365,https://app.sigapregao.com.br/403,rota,403,0,0,0,permission-gate,403 genérico sem upsell - requer plano superior

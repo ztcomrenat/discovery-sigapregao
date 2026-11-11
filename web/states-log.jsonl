@@ -1,0 +1,118 @@
+{"slug": "dashboard", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 28, "closed_with": "escape"}
+{"slug": "dashboard", "element_index": 86, "trigger_text": "Abrir meus negócios", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 67, "closed_with": "escape"}
+{"slug": "dashboard", "element_index": 48, "trigger_text": "Apagar todas", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 69, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 36, "trigger_text": "element_36", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 37, "trigger_text": "element_37", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 38, "trigger_text": "element_38", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 39, "trigger_text": "element_39", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 81, "trigger_text": "Encontrar licitação por número", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "oportunidades", "element_index": 189, "trigger_text": "Outros filtros", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 36, "trigger_text": "element_36", "trigger_type": "A", "state_type": "modal", "elements_found": 67, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 37, "trigger_text": "element_37", "trigger_type": "A", "state_type": "modal", "elements_found": 67, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 38, "trigger_text": "element_38", "trigger_type": "A", "state_type": "modal", "elements_found": 70, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 39, "trigger_text": "element_39", "trigger_type": "A", "state_type": "modal", "elements_found": 70, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 73, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 73, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 67, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 67, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 78, "trigger_text": "Kanban", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 67, "closed_with": "escape"}
+{"slug": "meus-negocios", "element_index": 79, "trigger_text": "Lista em breve", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 68, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 30, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 30, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 34, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 34, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 75, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 75, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 36, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 36, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 73, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 73, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 73, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 66, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 72, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 72, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 66, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 66, "closed_with": "escape"}
+{"slug": "orgaos", "element_index": 89, "trigger_text": "Todas as esferas Municipal Estadual Distrital Federal Estata", "trigger_type": "SELECT", "state_type": "modal", "elements_found": 66, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 36, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 36, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 31, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 34, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 34, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 29, "closed_with": "escape"}
+{"slug": "minhas-empresas", "element_index": 79, "trigger_text": "Adicionar empresa", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 36, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 30, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 30, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 25, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 36, "trigger_text": "el_36", "trigger_type": "A", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 37, "trigger_text": "el_37", "trigger_type": "A", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 38, "trigger_text": "el_38", "trigger_type": "A", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 39, "trigger_text": "el_39", "trigger_type": "A", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 46, "trigger_text": "Abrir menu lateral", "trigger_type": "A", "state_type": "modal", "elements_found": 37, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 67, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 COMEÇOU! Estamos AO VIVO na liv", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 37, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 70, "trigger_text": "LANÇAMENTO PLANO ULTRA 15/09 É hoje! Às 20h, Álvaro dos Anjo", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 73, "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "agente-prospeccao", "element_index": 123, "trigger_text": "CONFIGURAR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 32, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 1000, "trigger_text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá ", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 1001, "trigger_text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora noss", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "analise-empresa", "element_index": 1002, "trigger_text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 1000, "trigger_text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá ", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 1001, "trigger_text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora noss", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "analise-mercado", "element_index": 1002, "trigger_text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 1000, "trigger_text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá ", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 1001, "trigger_text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora noss", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "disputa-CN", "element_index": 1002, "trigger_text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 1000, "trigger_text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá ", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 1001, "trigger_text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora noss", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 1002, "trigger_text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 1003, "trigger_text": "Todas as empresas", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "minha-agenda", "element_index": 1004, "trigger_text": "Hoje", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 80, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 1000, "trigger_text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá ", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 1001, "trigger_text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora noss", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "pecas-juridicas", "element_index": 1002, "trigger_text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 1000, "trigger_text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá ", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 1001, "trigger_text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora noss", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}
+{"slug": "produtos-marcas", "element_index": 1002, "trigger_text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTR", "trigger_type": "BUTTON", "state_type": "modal", "elements_found": 77, "closed_with": "escape"}

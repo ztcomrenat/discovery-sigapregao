@@ -1,0 +1,692 @@
+{
+  "slug": "meus-negocios",
+  "element_index": 73,
+  "trigger": {
+    "i": 73,
+    "tag": "BUTTON",
+    "role": null,
+    "type": "button",
+    "label": "",
+    "text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do Siga Pregão Ultra, o novo plano do siga pregão. Será AO VIV",
+    "href": null,
+    "disabled": false,
+    "cls": "ntf__alvo",
+    "x": 773,
+    "y": 981
+  },
+  "trigger_text": "Lançamento Siga Pregão Ultra 14/09 É amanhã! O lançamento do",
+  "state_type": "modal",
+  "elements_found": 67,
+  "elements": [
+    {
+      "tag": "A",
+      "role": null,
+      "text": "",
+      "cls": "logo",
+      "x": 0,
+      "y": 35,
+      "w": 181,
+      "h": 17
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 580,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "10",
+      "cls": "icon",
+      "x": 622,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "icon",
+      "x": 664,
+      "y": 28,
+      "w": 18,
+      "h": 24
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "WhatsApp",
+      "cls": "",
+      "x": 471,
+      "y": 67,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Central de ajuda",
+      "cls": "",
+      "x": 471,
+      "y": 106,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Termo de uso",
+      "cls": "",
+      "x": 471,
+      "y": 144,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "menuitem",
+      "text": "Política de privacidade",
+      "cls": "",
+      "x": 471,
+      "y": 182,
+      "w": 218,
+      "h": 38
+    },
+    {
+      "tag": "A",
+      "role": "button",
+      "text": "",
+      "cls": "",
+      "x": 706,
+      "y": 24,
+      "w": 20,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1458,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Apagar todas",
+      "cls": "ntf__limpar",
+      "x": 1410,
+      "y": 70,
+      "w": 82,
+      "h": 27
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMOS INGRESSOSontemA Imersão Presencial em São Paulo - SP é nessa semana.",
+      "cls": "ntf__alvo",
+      "x": 773,
+      "y": 108,
+      "w": 687,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1460,
+      "y": 114,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 791,
+      "y": 178,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "COMEÇOU - ULTRA BLACK FRIDAY INFINITAhá 6 diasA maior Black Friday da história já começou e você não",
+      "cls": "ntf__alvo",
+      "x": 773,
+      "y": 210,
+      "w": 687,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1460,
+      "y": 216,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Acessar",
+      "cls": "ntf__link",
+      "x": 791,
+      "y": 280,
+      "w": 64,
+      "h": 19
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "NOVIDADE NO SIGA PRA VOCÊ29/10Agora nosso Monitoramento, está disponível também para o PCP, além do ",
+      "cls": "ntf__alvo",
+      "x": 773,
+      "y": 311,
+      "w": 687,
+      "h": 68
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1460,
+      "y": 317,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "ÚLTIMO DIA DA OFERTA DO SIGA PREGÃO ULTRA30/09Aproveite até às 23:59 de hoje, para garantir seu UPGR",
+      "cls": "ntf__alvo",
+      "x": 773,
+      "y": 380,
+      "w": 687,
+      "h": 87
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "ntf__apagar",
+      "x": 1460,
+      "y": 386,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1468,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Ver as já visualizadas",
+      "cls": "a-link tw-text-sm tw-text-blue-600 dark:tw-text-sky-300 hover:tw-underline focus:tw-underline tw-cursor-pointer tw-outline-none",
+      "x": 1075,
+      "y": 213,
+      "w": 125,
+      "h": 15
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "text": "KanbanKanban",
+      "cls": "mn-visoes__aba",
+      "x": 32,
+      "y": 80,
+      "w": 98,
+      "h": 40
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "text": "ListaLista em breve",
+      "cls": "mn-visoes__aba mn-visoes__aba--indisponivel",
+      "x": 134,
+      "y": 80,
+      "w": 147,
+      "h": 40
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "text": "AgendaAgenda em breve",
+      "cls": "mn-visoes__aba mn-visoes__aba--indisponivel",
+      "x": 285,
+      "y": 80,
+      "w": 167,
+      "h": 40
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Todas as empresas",
+      "cls": "seletor-empresas__trigger",
+      "x": 32,
+      "y": 129,
+      "w": 209,
+      "h": 36
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "s-input__field",
+      "x": 245,
+      "y": 128,
+      "w": 80,
+      "h": 28
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "mn-toolbar__filtro",
+      "x": 350,
+      "y": 129,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Selecionar",
+      "cls": "mn-toolbar__acao",
+      "x": 602,
+      "y": 129,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Arquivados",
+      "cls": "mn-toolbar__acao",
+      "x": 646,
+      "y": 129,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Lixeira",
+      "cls": "mn-toolbar__acao",
+      "x": 690,
+      "y": 129,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Adicionar negócio",
+      "cls": "btn-theme btn-theme--md btn-theme--primary mn-toolbar__primario",
+      "x": 545,
+      "y": 173,
+      "w": 181,
+      "h": 36
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Portal de Compras Públicas - Pregão eletrônico Nº 16/2026 | 921 - Consórcio Público da Associação do",
+      "cls": "mn-kcard__title",
+      "x": 52,
+      "y": 311,
+      "w": 276,
+      "h": 59
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1458,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 873,
+      "y": 230,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1013,
+      "y": 230,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1257,
+      "y": 230,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 834,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1001,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1115,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1265,
+      "y": 268,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 854,
+      "y": 306,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1069,
+      "y": 306,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1272,
+      "y": 306,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 901,
+      "y": 344,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1087,
+      "y": 344,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1208,
+      "y": 344,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 902,
+      "y": 382,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1189,
+      "y": 382,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 848,
+      "y": 420,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1090,
+      "y": 420,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "text": "",
+      "cls": "",
+      "x": 1261,
+      "y": 420,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Voltar",
+      "cls": "btn-siga previous",
+      "x": 1042,
+      "y": 376,
+      "w": 74,
+      "h": 39
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Próximo",
+      "cls": "btn-siga-green",
+      "x": 1129,
+      "y": 376,
+      "w": 94,
+      "h": 39
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": -48,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": -48,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "iac-ibtn",
+      "x": -48,
+      "y": 16,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Papel A4 75g, caixa com 10 resmas",
+      "cls": "iac-sug",
+      "x": -635,
+      "y": 307,
+      "w": 260,
+      "h": 34
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Fabricante de uniforme escolar",
+      "cls": "iac-sug",
+      "x": -367,
+      "y": 307,
+      "w": 235,
+      "h": 34
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Distribuidor de material de limpeza hospitalar",
+      "cls": "iac-sug",
+      "x": -542,
+      "y": 349,
+      "w": 317,
+      "h": 34
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Fornecedor de notebooks para órgão público",
+      "cls": "iac-sug",
+      "x": -542,
+      "y": 392,
+      "w": 318,
+      "h": 34
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "iac-send",
+      "x": -60,
+      "y": 345,
+      "w": 36,
+      "h": 36
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1468,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "",
+      "cls": "tw-inline-flex tw-items-center tw-justify-center tw-h-8 tw-w-8 tw-rounded-full tw-text-gray-500 hover:tw-text-gray-700 hover:tw-bg-gray-100 focus:tw-outline-none focus-visible:tw-ring-2 focus-visible:",
+      "x": 1468,
+      "y": 12,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "tag": "A",
+      "role": null,
+      "text": "Selecionar empresa",
+      "cls": "small-link-siga",
+      "x": 991,
+      "y": 173,
+      "w": 124,
+      "h": 16
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Confirmar",
+      "cls": "btn-siga-green",
+      "x": 785,
+      "y": 216,
+      "w": 106,
+      "h": 31
+    }
+  ]
+}
