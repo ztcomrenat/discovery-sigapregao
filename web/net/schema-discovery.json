@@ -1,0 +1,46 @@
+{
+  "negocios": {
+    "message": "[2026-11-11T16:14:08.188152985] Required request parameter 'tipos' for method parameter type TipoNegocio[] is not present"
+  },
+  "jornais": [],
+  "empresas": [
+    {
+      "id": 17686,
+      "clienteId": 76831,
+      "nome": "Zenith Soluções",
+      "cnpj": "51.499.102/0001-34",
+      "login": null,
+      "endereco": null,
+      "cep": null,
+      "uf": null,
+      "cidade": null,
+      "nomeContato": null,
+      "telefone": null,
+      "email": "zenithcomutil@gmail.com",
+      "whatsapp": null,
+      "banco": null,
+      "agencia": null,
+      "conta": null,
+      "arquivado": false,
+      "dataVencimento": null,
+      "workspaceId": 89013,
+      "anotacoesIa": null,
+      "emailSemFallback": "zenithcomutil@gmail.com",
+      "cnpjSomenteNumeros": "51499102000134",
+      "vencida": false,
+      "dataVencimentoFormatado": null
+    }
+  ],
+  "quadros": {
+    "message": "[2026-11-11T16:14:08.372127146] Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: \"quadro\""
+  },
+  "agenda": {
+    "message": "[2026-11-11T16:14:08.441020353] No static resource app/api/agenda."
+  },
+  "chamados": {
+    "message": "[2026-11-11T16:14:08.507672011] No static resource app/api/chamado."
+  },
+  "documentos": {
+    "message": "[2026-11-11T16:14:08.570366826] No static resource app/api/documento."
+  }
+}

@@ -1,17 +1,39 @@
 [
   {
+    "method": "DELETE",
+    "path": "/app/api/jornal/:id",
+    "statuses": [
+      405
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/agenda-eventos",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "write-crud-complete"
+    ],
+    "count": 1
+  },
+  {
     "method": "GET",
     "path": "/app/api/agente-prospeccao",
     "statuses": [
       204
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": null
+    "count": 1
   },
   {
     "method": "GET",
@@ -19,13 +41,10 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "{\"ufs\":[{\"selected\":false,\"nome\":\"GO\"},{\"selected\":false,\"nome\":\"SP\"},{\"selected\":false,\"nome\":\"SC\"},{\"selected\":false,\"nome\":\"ES\"},{\"selected\":false,\"nome\":\"MG\"},{\"selected\":false,\"nome\":\"PE\"},{\"sele"
+    "count": 1
   },
   {
     "method": "GET",
@@ -33,15 +52,14 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "analise-mercado"
     ],
-    "route_count": 1,
-    "sample_query": "descricao=&aberturaInicial=2025-11-01&aberturaFinal=2026-11-11&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitant",
-    "sample_body": null,
+    "count": 1,
+    "query_params": "descricao=&aberturaInicial=2025-11-01&aberturaFinal=2026-11-11&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitantes=&excluir=&limitar=&ordenacao=&pesquisaExata=false",
     "response_shape": {
-      "mapa": "list",
-      "mensal": "list",
+      "mapa": "array[29]",
+      "mensal": "array[14]",
       "totalContratado": "str"
     }
   },
@@ -51,12 +69,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "analise-mercado"
     ],
-    "route_count": 1,
-    "sample_query": "descricao=&aberturaInicial=2025-11-01&aberturaFinal=2026-11-11&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitant",
-    "sample_body": null,
+    "count": 1,
+    "query_params": "descricao=&aberturaInicial=2025-11-01&aberturaFinal=2026-11-11&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitantes=&excluir=&limitar=&ordenacao=&pesquisaExata=false",
     "response_shape": {
       "processos": "int",
       "sugestoes": "int",
@@ -72,13 +89,10 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "baixa-concorrencia"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "[{\"qtd\":1266,\"item\":\"Fruta\",\"valor\":16087.982391387224,\"valorFormatado\":\"R$ 16.087,98\"},{\"qtd\":1225,\"item\":\"Insulina\",\"valor\":103793.68284934081,\"valorFormatado\":\"R$ 103.793,68\"},{\"qtd\":1179,\"item\":\"C"
+    "count": 1
   },
   {
     "method": "GET",
@@ -86,7 +100,7 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "conector-ia",
       "historico-compras",
       "meus-dados",
@@ -95,10 +109,8 @@
       "oportunidade-5838194",
       "oportunidades"
     ],
-    "route_count": 7,
-    "sample_query": "descricao=&aberturaInicial=&aberturaFinal=&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitantes=",
-    "sample_body": null,
-    "response_shape": "{\"total\":3194070,\"items\":[{\"id\":\"CN_38026506001072026_1\",\"abertura\":\"2026-05-28T08:00:00\",\"codigoOrgao\":\"CN-380265\",\"descricao\":\"Colcha Cama\",\"descricaoDetalhada\":\"tipo: cobertor, material: 100% polié"
+    "count": 7,
+    "query_params": "descricao=&aberturaInicial=&aberturaFinal=&marca=&fabricante=&modelo=&vencedor=&desclassificado=&inabilitado=&modalidades=&ufs=&codigosOrgaos=&cnpj=&portais=&situacoes=&qtdLicitantes="
   },
   {
     "method": "GET",
@@ -106,13 +118,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "capacidade-pagamento"
     ],
-    "route_count": 1,
-    "sample_query": "pesquisa=&uf=&notaCapag=&nota1=&nota2=&nota3=&page=0",
-    "sample_body": null,
-    "response_shape": "[{\"sugestao\":null,\"prefeitura\":\"Abadia de Goiás\",\"codIbge\":\"5200050\",\"uf\":\"Goiás\",\"ufs\":null,\"populacao\":0,\"indicador1\":3.52,\"nota1\":\"A\",\"notas1\":null,\"indicador2\":85.97,\"nota2\":\"B\",\"notas2\":null,\"ind"
+    "count": 1,
+    "query_params": "pesquisa=&uf=&notaCapag=&nota1=&nota2=&nota3=&page=0",
+    "response_shape": "array of {'sugestao': 'NoneType', 'prefeitura': 'str', 'codIbge': 'str', 'uf': 'str', 'ufs': 'NoneType', 'populacao': 'int', 'indicador1': 'float', 'nota1': 'str', 'notas1': 'NoneType', 'indicador2': 'float', 'nota2': 'str', 'notas2': 'NoneType', 'indicador3': 'float', 'nota3': 'str', 'notas3': 'NoneType', 'notaCapag': 'str', 'notasCapag': 'NoneType', 'size': 'int', 'page': 'int', 'excludeFields': 'NoneType', 'portal': 'NoneType', 'orgao': 'NoneType', 'notaOrgao': 'dict'}"
   },
   {
     "method": "GET",
@@ -120,12 +131,13 @@
     "statuses": [
       204
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao",
       "ambientes",
       "analise-empresa",
       "analise-mercado",
       "ative-assinatura",
+      "auth-flow",
       "b2g-club",
       "b2g-fornecedor",
       "b2g-juridico",
@@ -170,10 +182,23 @@
       "recuperar-senha",
       "termos-de-uso"
     ],
-    "route_count": 48,
-    "sample_query": "ts=1794417033392",
-    "sample_body": null,
-    "response_shape": null
+    "count": 49,
+    "query_params": "ts=1794417033392"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/cliente/pub/cliente-existe/zenithcomutil@gmail.com",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "auth-flow"
+    ],
+    "count": 1,
+    "response_shape": {
+      "cliente": "bool",
+      "primeiroAcesso": "bool"
+    }
   },
   {
     "method": "GET",
@@ -181,9 +206,10 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "analise-mercado",
       "ative-assinatura",
+      "auth-flow",
       "cadastro",
       "editar-empresa-17686",
       "login",
@@ -194,9 +220,7 @@
       "recuperar-senha",
       "termos-de-uso"
     ],
-    "route_count": 11,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 12,
     "response_shape": {
       "id": "int",
       "nivelRegra": "int",
@@ -253,10 +277,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao",
       "ambientes",
       "analise-empresa",
+      "auth-flow",
       "b2g-club",
       "b2g-fornecedor",
       "b2g-juridico",
@@ -291,10 +316,81 @@
       "produtos-marcas",
       "quadros"
     ],
-    "route_count": 36,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "{\"id\":76831,\"nome\":\"Zenith Comércio\",\"email\":\"zenithcomutil@gmail.com\",\"telefone\":null,\"envioJornalAtivo\":true,\"monitoramentoAtivo\":true,\"admin\":false,\"funcoes\":[],\"regraPlano\":{\"id\":526,\"nivelRegra\":"
+    "count": 37,
+    "response_shape": {
+      "id": "int",
+      "nome": "str",
+      "email": "str",
+      "telefone": "NoneType",
+      "envioJornalAtivo": "bool",
+      "monitoramentoAtivo": "bool",
+      "admin": "bool",
+      "funcoes": "array[0]",
+      "regraPlano": "object(id,nivelRegra,idCliente,nomePlano,nomeRegra)",
+      "periodicidade": "int",
+      "notAcceptedTerms": "array[4]",
+      "saldoIAFornecedor": "object(qtdUsada,qtdLimite)",
+      "participaDeAmbienteAtivo": "bool",
+      "ambientePessoalIndisponivel": "bool",
+      "ambientePadrao": "NoneType",
+      "planoEfetivo": "object(id,nivelRegra,idCliente,nomePlano,nomeRegra)",
+      "planoEfetivoAmbienteId": "int",
+      "planoEfetivoAmbienteNome": "NoneType",
+      "planoEfetivoOrigem": "str",
+      "motivoSemAcesso": "str",
+      "clienteMentoria": "bool"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/compromisso",
+    "statuses": [
+      404
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/dashboard/home",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "auth-flow"
+    ],
+    "count": 1
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/dashboard/opportunities/recommended",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "auth-flow"
+    ],
+    "count": 1
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/dashboard/opportunities/today/items",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "auth-flow"
+    ],
+    "count": 1,
+    "response_shape": {
+      "totalLicitacoes": "int",
+      "totalItens": "int"
+    }
   },
   {
     "method": "GET",
@@ -302,15 +398,28 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
-      "meus-documentos"
+    "seen_in": [
+      "meus-documentos",
+      "write-crud-complete"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 2,
     "response_shape": {
-      "docs": "list",
-      "dirs": "list"
+      "docs": "array[0]",
+      "dirs": "array[0]"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/drive",
+    "statuses": [
+      404
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
     }
   },
   {
@@ -319,7 +428,7 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao",
       "conector-ia",
       "meus-dados",
@@ -330,10 +439,8 @@
       "oportunidades",
       "quadros"
     ],
-    "route_count": 9,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "array[1]"
+    "count": 9,
+    "response_shape": "array of {'id': 'int', 'clienteId': 'int', 'nome': 'str', 'cnpj': 'str', 'login': 'NoneType', 'endereco': 'NoneType', 'cep': 'NoneType', 'uf': 'NoneType', 'cidade': 'NoneType', 'nomeContato': 'NoneType', 'telefone': 'NoneType', 'email': 'str', 'whatsapp': 'NoneType', 'banco': 'NoneType', 'agencia': 'NoneType', 'conta': 'NoneType', 'arquivado': 'bool', 'dataVencimento': 'NoneType', 'workspaceId': 'int', 'anotacoesIa': 'NoneType', 'emailSemFallback': 'str', 'cnpjSomenteNumeros': 'str', 'vencida': 'bool', 'dataVencimentoFormatado': 'NoneType'}"
   },
   {
     "method": "GET",
@@ -341,12 +448,10 @@
     "statuses": [
       403
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "feature-flags"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 1,
     "response_shape": {
       "message": "str",
       "data": "NoneType"
@@ -358,12 +463,13 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao",
       "ambientes",
       "analise-empresa",
       "analise-mercado",
       "ative-assinatura",
+      "auth-flow",
       "b2g-club",
       "b2g-fornecedor",
       "b2g-juridico",
@@ -406,11 +512,9 @@
       "recuperar-senha",
       "termos-de-uso"
     ],
-    "route_count": 46,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 47,
     "response_shape": {
-      "features": "list",
+      "features": "array[1]",
       "superCrawlWebUrl": "str"
     }
   },
@@ -420,7 +524,7 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "conector-ia",
       "fornec-ia",
       "meus-dados",
@@ -430,9 +534,7 @@
       "oportunidades",
       "quadros"
     ],
-    "route_count": 8,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 8,
     "response_shape": {
       "threadId": "NoneType",
       "mensagens": "NoneType"
@@ -444,17 +546,14 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "conector-ia",
       "meus-dados",
       "oportunidade-5467365",
       "oportunidade-5641228",
       "oportunidade-5838194"
     ],
-    "route_count": 5,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": null
+    "count": 5
   },
   {
     "method": "GET",
@@ -462,7 +561,7 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao",
       "conector-ia",
       "meus-dados",
@@ -472,9 +571,7 @@
       "oportunidades",
       "quadros"
     ],
-    "route_count": 8,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 8,
     "response_shape": {
       "id": "int",
       "idCliente": "int",
@@ -488,13 +585,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "oportunidades"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": null
+    "count": 1,
+    "response_shape": "array[0]"
   },
   {
     "method": "GET",
@@ -502,13 +597,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "pecas-juridicas"
     ],
-    "route_count": 1,
-    "sample_query": "palavras=&tipos=&uasg=&somenteNovaLei=false&page=0",
-    "sample_body": null,
-    "response_shape": "{\"content\":[{\"id\":0,\"tipo\":\"R\",\"conteudo\":\"<br> Ào<br> MUNICÍPIO DE NIQUELÂNDIA <br> DEPARTAMENTO DE LICITAÇÃO<br> Att. Sr. Presidente da Licitação <br> <br> Ref.: PREGÃO ELETRÔNICO Nº 010/2021<br> <b"
+    "count": 1,
+    "query_params": "palavras=&tipos=&uasg=&somenteNovaLei=false&page=0"
   },
   {
     "method": "GET",
@@ -516,16 +609,14 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "conector-ia",
       "meus-dados",
       "oportunidade-5467365",
       "oportunidade-5641228",
       "oportunidade-5838194"
     ],
-    "route_count": 5,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 5,
     "response_shape": {
       "disponivel": "bool",
       "situacao": "str",
@@ -542,9 +633,28 @@
       "indiceValor": "NoneType",
       "indicePerfil": "NoneType",
       "anoExercicio": "NoneType",
-      "pilares": "list",
+      "pilares": "array[0]",
       "aviso": "NoneType",
       "assinarUrl": "NoneType"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/live-events",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "auth-flow"
+    ],
+    "count": 1,
+    "query_params": "publicado=true&size=12&upcoming=true",
+    "response_shape": {
+      "items": "array[3]",
+      "total": "int",
+      "page": "int",
+      "size": "int",
+      "hasNext": "bool"
     }
   },
   {
@@ -553,13 +663,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
+      "auth-flow",
       "dashboard"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "����\u0000\u0010JFIF\u0000\u0001\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0003�\u0006@\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+    "count": 2
   },
   {
     "method": "GET",
@@ -567,13 +675,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
+      "auth-flow",
       "dashboard"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "����\u0000\u0010JFIF\u0000\u0001\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0003�\u0006@\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+    "count": 2
   },
   {
     "method": "GET",
@@ -581,13 +687,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
+      "auth-flow",
       "dashboard"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "����\u0000\u0010JFIF\u0000\u0001\u0002\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0003�\u0006@\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+    "count": 2
   },
   {
     "method": "GET",
@@ -595,15 +699,28 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "orgaos",
       "pagometro",
-      "quadros"
+      "quadros",
+      "write-crud-complete"
     ],
-    "route_count": 3,
-    "sample_query": "tipos=oportunidade,qualificacao,disputa,classificacao,contrato",
-    "sample_body": null,
-    "response_shape": "[{\"id\":2097274,\"nome\":\"Licitações-e - Pregão eletrônico Nº 135/2025/2025 | 000000001 - PREFEITURA MUNICIPAL DE APARECIDA DE GOIANIA\",\"clienteId\":76831,\"processoId\":5380239,\"empresaId\":0,\"tipoNegocio\":"
+    "count": 4,
+    "query_params": "tipos=oportunidade,qualificacao,disputa,classificacao,contrato"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/negocio/agenda",
+    "statuses": [
+      400
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
+    }
   },
   {
     "method": "GET",
@@ -611,13 +728,41 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "meus-arquivos"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": null
+    "count": 1,
+    "response_shape": "array[0]"
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/negocio/documentos",
+    "statuses": [
+      400
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/negocio/quadro",
+    "statuses": [
+      400
+    ],
+    "seen_in": [
+      "write-batch-2",
+      "write-crud-complete"
+    ],
+    "count": 2,
+    "query_params": "empresaId=17686",
+    "response_shape": {
+      "message": "str"
+    }
   },
   {
     "method": "GET",
@@ -625,12 +770,13 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "agente-prospeccao",
       "ambientes",
       "analise-empresa",
       "analise-mercado",
       "ative-assinatura",
+      "auth-flow",
       "b2g-club",
       "b2g-fornecedor",
       "b2g-juridico",
@@ -675,10 +821,8 @@
       "recuperar-senha",
       "termos-de-uso"
     ],
-    "route_count": 48,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "[{\"id\":20297701,\"clienteId\":76831,\"negocioId\":0,\"titulo\":\"ÚLTIMOS INGRESSOS\",\"mensagem\":\"A Imersão Presencial em São Paulo - SP é nessa semana.\",\"link\":\"https://licitanteextremo.com.br/nova-onda/\",\"vi"
+    "count": 49,
+    "response_shape": "array of {'id': 'int', 'clienteId': 'int', 'negocioId': 'int', 'titulo': 'str', 'mensagem': 'str', 'link': 'str', 'visto': 'bool', 'arquivado': 'bool', 'arquivadoPeloSistema': 'bool', 'modelo': 'bool', 'dataAtualizacao': 'str', 'dataCriacao': 'str'}"
   },
   {
     "method": "GET",
@@ -686,14 +830,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "orgaos",
       "pagometro"
     ],
-    "route_count": 2,
-    "sample_query": "termo=&pagina=0",
-    "sample_body": null,
-    "response_shape": "{\"itens\":[{\"cnpj\":\"30631325000133\",\"nome\":\"EDUCACAO\",\"esfera\":\"M\",\"poder\":\"N\",\"uf\":null,\"municipio\":null,\"ente\":{\"cnpj\":\"30631325000133\",\"nome\":\"EDUCACAO\",\"proprio\":true},\"uasgs\":[],\"totalUasgs\":0,\"li"
+    "count": 2,
+    "query_params": "termo=&pagina=0"
   },
   {
     "method": "GET",
@@ -701,14 +843,13 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "orgaos",
       "pagometro"
     ],
-    "route_count": 2,
-    "sample_query": "orgao=&from=0",
-    "sample_body": null,
-    "response_shape": "[{\"id\":0,\"orgaoSuperior\":\"Advocacia-Geral da União\",\"orgaoSuperiorMatch\":null,\"orgaoSuperiorPrefix\":null,\"orgao\":\"Advocacia-Geral da União\",\"orgaoMatch\":null,\"orgaoPrefix\":null,\"naturezaJuridica\":\"Adm"
+    "count": 2,
+    "query_params": "orgao=&from=0",
+    "response_shape": "array of {'id': 'int', 'orgaoSuperior': 'str', 'orgaoSuperiorMatch': 'NoneType', 'orgaoSuperiorPrefix': 'NoneType', 'orgao': 'str', 'orgaoMatch': 'NoneType', 'orgaoPrefix': 'NoneType', 'naturezaJuridica': 'str', 'size': 'int', 'from': 'int'}"
   },
   {
     "method": "GET",
@@ -716,12 +857,10 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "contratacao-futura"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 1,
     "response_shape": "array[6]"
   },
   {
@@ -730,13 +869,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "contratacao-futura"
     ],
-    "route_count": 1,
-    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
-    "sample_body": null,
-    "response_shape": "array[8]"
+    "count": 1,
+    "query_params": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "response_shape": "array of {'name': 'str', 'qtd': 'int', 'value': 'float', 'evalue': 'bool'}"
   },
   {
     "method": "GET",
@@ -744,12 +882,11 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "contratacao-futura"
     ],
-    "route_count": 1,
-    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
-    "sample_body": null,
+    "count": 1,
+    "query_params": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
     "response_shape": {
       "totalItens": "str",
       "totalOrgaos": "str",
@@ -763,13 +900,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "contratacao-futura"
     ],
-    "route_count": 1,
-    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
-    "sample_body": null,
-    "response_shape": "array[4]"
+    "count": 1,
+    "query_params": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "response_shape": "array of {'name': 'str', 'qtd': 'int', 'value': 'float', 'evalue': 'bool'}"
   },
   {
     "method": "GET",
@@ -777,13 +913,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "contratacao-futura"
     ],
-    "route_count": 1,
-    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
-    "sample_body": null,
-    "response_shape": "array[5]"
+    "count": 1,
+    "query_params": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "response_shape": "array of {'name': 'str', 'qtd': 'int', 'value': 'float', 'evalue': 'bool'}"
   },
   {
     "method": "GET",
@@ -791,13 +926,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "contratacao-futura"
     ],
-    "route_count": 1,
-    "sample_query": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
-    "sample_body": null,
-    "response_shape": "array[12]"
+    "count": 1,
+    "query_params": "ano=2026&cnpj=&codigoOrgao=&descricaoItem=&mes=&categoria=&esfera=&poder=&uf=",
+    "response_shape": "array of {'name': 'str', 'qtd': 'int', 'value': 'float', 'evalue': 'NoneType'}"
   },
   {
     "method": "GET",
@@ -805,17 +939,57 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "conector-ia",
       "meus-dados",
       "oportunidade-5467365",
       "oportunidade-5641228",
       "oportunidade-5838194"
     ],
-    "route_count": 5,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "{\"id\":5467365,\"portal\":\"PNCP\",\"fontePncp\":\"IPM Sistemas\",\"modalidade\":1,\"uasg\":\"04001\",\"numero\":\"PCE 11/2026\",\"status\":\"\",\"situacao\":\"Divulgada no PNCP - Aguardando abertura da sessão pública\",\"objeto"
+    "count": 5,
+    "response_shape": {
+      "id": "int",
+      "portal": "str",
+      "fontePncp": "str",
+      "modalidade": "int",
+      "uasg": "str",
+      "numero": "str",
+      "status": "str",
+      "situacao": "str",
+      "objeto": "str",
+      "suspenso": "bool",
+      "uf": "str",
+      "orgao": "str",
+      "codigo": "str",
+      "itens": "object(grupos,itens)",
+      "abertura": "str",
+      "encerramento": "NoneType",
+      "publicacao": "str",
+      "qtdMensagens": "int",
+      "qtdAvisos": "int",
+      "qtdEsclarecimentos": "int",
+      "qtdImpugnacoes": "int",
+      "nomeModalidade": "str",
+      "nomePortal": "str",
+      "aberturaFormatada": "str",
+      "encerramentoFormatado": "str",
+      "dataAtualizacaoFormatada": "str",
+      "urlEdital": "str",
+      "urlExterna": "str",
+      "urlSigaAntigo": "str",
+      "urlAppSiga": "str",
+      "arquivada": "bool",
+      "maisDados": "object(codigoIBGE,orcamentoSigiloso,numeroControlePNCP,municipio,valorTotalDaCompra)",
+      "estimativaPagamento": "str",
+      "notaPagamento": "str",
+      "antecipagov": "bool",
+      "indexIa": "bool",
+      "registroPreco": "bool",
+      "modoDisputa": "str",
+      "categorias": "array[3]",
+      "tipoItens": "str",
+      "dataPublicacaoFormatada": "str"
+    }
   },
   {
     "method": "GET",
@@ -823,17 +997,58 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "conector-ia",
       "meus-dados",
       "oportunidade-5467365",
       "oportunidade-5641228",
       "oportunidade-5838194"
     ],
-    "route_count": 5,
-    "sample_query": "id=5467365",
-    "sample_body": null,
-    "response_shape": "{\"id\":5467365,\"portal\":\"PNCP\",\"fontePncp\":\"IPM Sistemas\",\"modalidade\":1,\"uasg\":\"04001\",\"numero\":\"PCE 11/2026\",\"status\":\"\",\"situacao\":\"Divulgada no PNCP - Aguardando abertura da sessão pública\",\"objeto"
+    "count": 5,
+    "query_params": "id=5467365",
+    "response_shape": {
+      "id": "int",
+      "portal": "str",
+      "fontePncp": "str",
+      "modalidade": "int",
+      "uasg": "str",
+      "numero": "str",
+      "status": "str",
+      "situacao": "str",
+      "objeto": "str",
+      "suspenso": "bool",
+      "uf": "str",
+      "orgao": "str",
+      "codigo": "str",
+      "itens": "object(grupos,itens)",
+      "abertura": "str",
+      "encerramento": "NoneType",
+      "publicacao": "str",
+      "qtdMensagens": "int",
+      "qtdAvisos": "int",
+      "qtdEsclarecimentos": "int",
+      "qtdImpugnacoes": "int",
+      "nomeModalidade": "str",
+      "nomePortal": "str",
+      "aberturaFormatada": "str",
+      "encerramentoFormatado": "str",
+      "dataAtualizacaoFormatada": "str",
+      "urlEdital": "str",
+      "urlExterna": "str",
+      "urlSigaAntigo": "str",
+      "urlAppSiga": "str",
+      "arquivada": "bool",
+      "maisDados": "object(codigoIBGE,orcamentoSigiloso,numeroControlePNCP,municipio,valorTotalDaCompra)",
+      "estimativaPagamento": "str",
+      "notaPagamento": "str",
+      "antecipagov": "bool",
+      "indexIa": "bool",
+      "registroPreco": "bool",
+      "modoDisputa": "str",
+      "categorias": "array[3]",
+      "tipoItens": "str",
+      "dataPublicacaoFormatada": "str"
+    }
   },
   {
     "method": "GET",
@@ -841,22 +1056,21 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "produtos-marcas"
     ],
-    "route_count": 1,
-    "sample_query": "nome=&page=0",
-    "sample_body": null,
+    "count": 1,
+    "query_params": "nome=&page=0",
     "response_shape": {
-      "content": "list",
-      "pageable": "dict",
+      "content": "array[10]",
+      "pageable": "object(pageNumber,pageSize,offset,paged,unpaged)",
       "last": "bool",
       "totalElements": "int",
       "totalPages": "int",
       "size": "int",
       "number": "int",
       "first": "bool",
-      "sort": "dict",
+      "sort": "object(empty,sorted,unsorted)",
       "numberOfElements": "int",
       "empty": "bool"
     }
@@ -867,14 +1081,39 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "disputa-CN",
       "disputa-PCP"
     ],
-    "route_count": 2,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "0.7.10"
+    "count": 2
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/suporte",
+    "statuses": [
+      404
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/app/api/suporte/chamados",
+    "statuses": [
+      404
+    ],
+    "seen_in": [
+      "write-batch-2"
+    ],
+    "count": 1,
+    "response_shape": {
+      "message": "str"
+    }
   },
   {
     "method": "GET",
@@ -882,15 +1121,12 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "login",
       "politica-de-privacidade",
       "termos-de-uso"
     ],
-    "route_count": 3,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "{\"sigapregaoContract\":{\"content\":\"**CONTRATO DE PRESTAÇÃO DE SERVIÇOS – PLATAFORMA SIGA PREGÃO (SaaS)**\\r\\n\\r\\n**PARTES CONTRATANTES:**\\r\\n\\r\\n**CONTRATANTE:** Pessoa física ou jurídica identificada n"
+    "count": 3
   },
   {
     "method": "GET",
@@ -898,13 +1134,10 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "b2g-club"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
-    "response_shape": "{\"sigapregaoContract\":\"\",\"notAccepted\":[{\"id\":6,\"termKey\":\"tos\",\"termName\":\"Termos de uso\",\"termVersion\":\"1.4\",\"termHash\":\"cef23ed3589ca69c27a49713860cc8edd4bc9570444297ba28104cc3a19ac214\",\"summaryCha"
+    "count": 1
   },
   {
     "method": "GET",
@@ -912,14 +1145,152 @@
     "statuses": [
       404
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "ambientes"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": null,
+    "count": 1,
     "response_shape": {
       "data": "NoneType",
+      "message": "str"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "data:application/octet-stream;base64,UEsDBBQAAAAIAAAAIQA1LDkfcAAAAJEAAAANAAAAbWFuaWZlc3QuanNvbjWMQQrCMBBF7/LXodilOYLr7sTFYAYdmmTCZKpI6d1Fgsv/:iduPvoCqFXLR2xOuOrNoQ3TYOkIQIW2SZm6yX85TVXRgBRRMjoqoVyjhuAbT5Uw0RCEjc7ybt9znAgysb+d+v/HmrpT7Wi62Pcp5OOL5QSwMEFAAAAAgA637hXC7gubpuCgAAfX0AACEAAABhbmltYXRpb25zL3JUaVQxcGlrSjkubG90dGllLmpzb27tXVtzG7sN/i/:idzMUQAG/QYzttX06nnbZvGj24Oc6lcRKP7Z7TTMb/vQPsRbvyKpFvipzQM1EkLgkCS/Aj+JHL/dL81qyaAAV845p3l80KyTWfLpsVJ9e8vmpWFFzze7NC771r3g5fPn5oVs0vjWvOrq/Pb66b1Xrjmouzz+dX+v1L8+7jr80KXXPzuVlxn/:idPjWuuryz5/XWz+tJ80o+zZuVd875Z+VvXXPUpmqWTown/a1ZrDynljWs+N6s1bm5dV7i7wsz9Fa9XbpoVuUb1yJtb92AZGDoh7aOkUHoCVbjMVLlpVtGPYjXPpZae3zEPhdnE2LdJFVZDd2V2t8hDCsW1gQhyYec3rrl5p2o43/:idNP6YGmO2mDyc1YJ9qn3raurt8K7lEiBiuUclB5szNtwRDCJ/DIsGJzqCQUzHMGh06CNYFMK9LZp0sLsK3m6cQdSt/TcBsFGAFpymo/eu/:ide5ve1g1ncoK9qyN/bz8uzq/KM2ttmp+Elz/Pzr4fi5TbmcqxK9d1n0DnxL/Tv4q407+RwgapK+AGRu8jmUGKrRrtp7m0SHXv/:idBZh0k88BMh3eqU2bfvI56jdJH2rtvU+rlMVan8NWHUiPbyv7RVv1Srqrz+Dae5x09EzuPDP0nvnHr3sm+oN8syXwPruWAhSPiy7KkkGEHRUBFDmot12/Pbs876IS1bl5c9X0av+lcc2/P1jBdzfbDNdvhwx/:idhI7VXRQ6+wJluvW4GI2aGHQLxx6xYTsCTXYgDJm42113ptv1x/cePWSJBycYgQc9Jcv5kwEiAqLkIpYePWs58b17xqVq/PLq7Puzvib60JTdebQdd/bo25eGXYcfEfa5EPF9oCbrFNfp+lkSa92gEFQLa/:idKl0zuVzCYzig/o66nfOJEF9aLPV7EZv84P8IHKCGNLQyMtItb/h9YrdkX+pV76/U9v1XJi/:idQiq+sbL8A2KAoHlmL6x6edFpQNDwjsjNo64GOa4+KenwkUkci17SBj34mLJxVFh4BK/Ky4iQ0wKzW7tnf0o6tv6JfWpXZ6y7QhLF92yqKFbePAeHQWIOv6t7Usvwq6046V2vNb1lpur/:idtLK8vmsk0tbf+kf6+18fxSVHSmvwlouSs2eeeIl/zFNnjKTuiRgDd7yrtz+EripqEx3SVHjQVLC2ClA40eQk0YwXNCpoVNCtonpavfDfQ7GfdxlLsCzTTHDO/QQ0daLEHjo4LeHOWh/NbzwWSiYCNi0OQYPOqSCCIjhEyhdHfIwHl7DgCmqOnCBzYtSyAeeLihSFpOhLEiBu33kk43uSqnMTkqm/d47r5AgO6dfM8d/N/:idMfNH7uG1GrbGXH8qPWfnugu4SnWoh6nSprrMuHh/VeWkZaJ9uUlpJYQATm6lrJASo8n9Peu7USCwPhsFY0367kt2i6F3NeiySrFkpb71ylEIIToWo1/S/kukH7gQuXCcs6wZNAPCnrTAjokwBw3bp0zZM9KvSXhcURoUwYNWTBCjBb7SIZYFOoZAsk4JkxuDXqyjF2K5sf5kHDw4teSFTKzghNwKTZCpZz2m1GyzWokgEi8lxkYCUpkRwhI6cnsGLpJb0cogFJcSwxiZCUXYM6uDQKUp4YIUCouBAikI2+bPIRSnNod+OjNwfh1M1oUkJRdKwWK0H47UCBIdJIgxvAVM1KAHNkhEbDPd+2YrM+cgqNv14UODH/okLAn1LBneeG3zMOevz1NdO9aOmjl9+RGgd0YYD4CaJdDcTorZe2CNlbqnDeTTmpz6BK7bBu3DhACuRiBi/VYhhKiyxGSIarG/roIEyB3EIsCHINDiAYFnXhdyck52lQhdf0nQ0EdvQVEtJ5WoBRd3uEEmbdFVSfV13TbTloGuTvWWDYac4/:idd1a0Zkb3O5O4liIUM7g3ox3t6CsXYF2HgkiqtFkRFFSStwkQpBgcMxBrGURIGBwmJdHC/DZ2iuFwiwdcIRRAL44kAoWOHSC1OM6ScoSQsqPMkNnEkSQoEhwRgkS7o+wJOEYlIXwwK5kJspBrCccbxFggM7uWUgTqxKcI2SuAl9JPFTEJsOIgM0PJtpBGBEnQtYwJYlZhpMhf9D6mpGGUJuUCgiq+AJOqSkJARSaaUvZQEo/mTGiQh+5aGfYoPNDJvcPCIOYbg2dtM3cRQSdyLnFo1XbMp4zRVmqLfeKTebLKRF3S3KlrmntS5VzpXoOdTN4hCcQsz+ux7L0NwVOP1eGZSfeA5DLN06qzRYxTUS3lANyBx1Bjq1UWNF/s9Zom9X42KTk446QC9hkiZevVTI902MP3qIVHOaw2DktxqKyb9UWLYbg47csaEiuUhZzULDH/MWRW9wNvNM/gdwRiHhwgiLadXhdbCZAO8T147dAGzBSf1p0LRAquRY/AhqEJfNBhIfZkaW+FqTkpp7aU5HQW16G3kI5BwTYGmIniRgt0rPHo0Cet7TvgMgJGtUEgY+e/KSl9rMCJ4MWahwICikKuxp6dbqUbf5gtzlNPjAQ59o4fo+Zin4BNVg7aUppECEnvNmEBs5hEe3hSu7mUY6HysJuqonJF5eOj8t1JYY19a+x7yrHv4bwBvtw9aafHH8icP/jDU+2oIF0cIylAw3aJSiRUMK1gWomEGrLWkLUSCZVIqERCJRIqKp86Klcioca+L5xIePNaJ7U7u7ttgso2mNiG3fPdWSiI7bJJur/DNsxpgOyaN+NG0ymR4Ck5dB5yzH7yZ0mSEkpMkTCzGubB63aOw3MXvEdu9Pk+uTncR5PeStVf95JQr50HLqGv2wNaukq26f1ls4q3d2fsz7gb+/RIFuWoHrw5tbIsdaSpI80pjjSVZanx/EuL5yvLUlmWyrJUlqWi8imhcmVZauz7A7IsLUcdyLWhs0BJYYFpCQwSs2tz1JzfIFqMfkhTqqIjK9JIU/jAOgh7IN20cXDugHh4bstJXstFK0sj1aGB1M9NdfQnuVaqo1IdFe5/GLivVEcNql9aUF2pjkp1VKqjUh0VlU8JlSvVUWPfH5HqwKy7KHSEFp2iLjAdbQKKwZlJGJ6S6SjOgyJXiEWmf8ZQsBe/LaIAElAvFJ9nmW1jh8wqVHYDC+J2H4iXkf4oI/:idhx/lV+qOjP2hOf3zjRTb1PI6K/BX5Txb5K+tR4+uXFl9X1qOyHpX1qKxHReVTQuXKetTY9wdkPdi1OS9t6sg6Co5Xu1Of396Z5u7Otfc9XqOnkj6CsNBea+X1IRWf/EyKPbhSCEPPqBSKyo4ke65FOQ6faKEAYxryJ5ObVcVsV30KsxKdVlxiSYNewYqo+FzKLsfjU5oW756tKSHGob6iR89rWKeaZhPjs1+oM1HekkXdTbCnc7Ie2w8+z/VUaVgKThgmJZaC1RJNs3kL9CUkTAgm3z9RZK839CXO8nfPB2EoA39VyLb8KK3y01NHO29K/OWYJ9j3vEwpT3H0/KPOrx+OiX6cKsNR6WH3+HMVu1l4g4c+8Jct4EUQWn6pRXsCp6EPL7jYPeO5XT7kefeM5z1HPLd3znjef8TzfV9vUc93Xj0AFTau+XB29b57Sfrm9v9QSwECFAAUAAAACAAAACEANSw5H3AAAACRAAAADQAAAAAAAAAAAAAAAAAAAAAAbWFuaWZlc3QuanNvblBLAQIUABQAAAAIAOt+4Vwu4Lm6bgoAAH19AAAhAAAAAAAAAAAAAAAAAJsAAABhbmltYXRpb25zL3JUaVQxcGlrSjkubG90dGllLmpzb25QSwUGAAAAAAIAAgCKAAAASAsAAAAA",
+    "statuses": [
+      200
+    ],
+    "seen_in": [
+      "b2g-fornecedor",
+      "b2g-juridico",
+      "b2g-leitor",
+      "b2g-monitor",
+      "b2g-prospecta"
+    ],
+    "count": 5
+  },
+  {
+    "method": "PATCH",
+    "path": "/app/api/jornal",
+    "statuses": [
+      405
+    ],
+    "seen_in": [
+      "write-crud-complete",
+      "write-operations"
+    ],
+    "count": 2,
+    "request_schema": {
+      "id": "int",
+      "ativo": "bool"
+    },
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/app/api/agenda-eventos",
+    "statuses": [
+      500
+    ],
+    "seen_in": [
+      "write-crud-complete",
+      "write-operations"
+    ],
+    "count": 2,
+    "request_schema": {
+      "titulo": "str",
+      "descricao": "str",
+      "dataInicio": "str",
+      "dataFim": "str",
+      "tipo": "str"
+    },
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/app/api/docmanager/upload",
+    "statuses": [
+      404
+    ],
+    "seen_in": [
+      "write-crud-complete",
+      "write-operations"
+    ],
+    "count": 2,
+    "request_body": "[object FormData]",
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/app/api/empresa",
+    "statuses": [
+      403
+    ],
+    "seen_in": [
+      "write-batch-1"
+    ],
+    "count": 1,
+    "request_schema": {
+      "cnpj": "str",
+      "razaoSocial": "str"
+    },
+    "response_shape": {
+      "message": "str",
+      "data": "NoneType"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/app/api/jornal",
+    "statuses": [
+      200,
+      500
+    ],
+    "seen_in": [
+      "write-batch-1",
+      "write-batch-2"
+    ],
+    "count": 2,
+    "request_schema": {
+      "nome_jornal": "str",
+      "palavras_chave": "str",
+      "estados": "str",
+      "portais": "str",
+      "orgaos": "str",
+      "modalidades": "str",
+      "tipo_item": "str",
+      "faixa_valor": "str",
+      "ativo": "bool"
+    },
+    "response_shape": {
+      "message": "str"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/app/api/negocio",
+    "statuses": [
+      500
+    ],
+    "seen_in": [
+      "write-batch-1",
+      "write-batch-2",
+      "write-crud-complete",
+      "write-operations"
+    ],
+    "count": 4,
+    "request_schema": {
+      "processoId": "int",
+      "nome": "str",
+      "etapa": "str"
+    },
+    "response_shape": {
       "message": "str"
     }
   },
@@ -929,73 +1300,37 @@
     "statuses": [
       200
     ],
-    "seen_in_routes": [
+    "seen_in": [
       "oportunidades"
     ],
-    "route_count": 1,
-    "sample_query": null,
-    "sample_body": "{\"tipoPeriodo\":\"abertura\",\"orgaos\":[],\"pesquisa\":\"\",\"excluir\":\"\",\"limitar\":\"\",\"dataInicial\":\"2026-11-11\",\"dataFinal\":\"2026-11-25\",\"valorMinimoDaCompra\":0,\"valorMaximoDaCompra\":0,\"valorMinimoDoItem\":0,\"valorMaximoDoItem\":0,\"qtdMaxItens\":0,\"somenteValoresSigilosos\":false,\"itensDesertos\":false,\"ufs\":[],\"portais\":[],\"modalidades\":[],\"superoportunidades\":false,\"participacaoExclusiva\":false,\"fontePncp\":\"\",\"orgaoCnpj\":\"\",\"excluirRegistroPreco\":false,\"modoDisputa\":\"\",\"tipoItem\":\"\",\"pesquisaAmpla\":false,",
-    "response_shape": "{\"content\":[{\"id\":5641228,\"portal\":\"PNCP\",\"fontePncp\":\"Governançabrasil Tecnologia e Gestão em Serviços\",\"modalidade\":1,\"uasg\":\"0000\",\"numero\":\"32 | Processo 58/2026\",\"codigo\":\"95725024000114-1-000058"
-  },
-  {
-    "method": "POST",
-    "path": "/cdn-cgi/rum",
-    "statuses": [
-      204
-    ],
-    "seen_in_routes": [
-      "agente-prospeccao",
-      "ambientes",
-      "analise-empresa",
-      "analise-mercado",
-      "ative-assinatura",
-      "b2g-club",
-      "b2g-fornecedor",
-      "b2g-juridico",
-      "b2g-leitor",
-      "b2g-monitor",
-      "b2g-prospecta",
-      "baixa-concorrencia",
-      "cadastro",
-      "capacidade-pagamento",
-      "comprasnet",
-      "conector-ia",
-      "contratacao-futura",
-      "dashboard",
-      "disputa-CN",
-      "disputa-PCP",
-      "disputas-maquina-de-lances",
-      "editar-empresa-17686",
-      "feature-flags",
-      "fornec-ia",
-      "historico-compras",
-      "integracoes",
-      "login",
-      "logs-maquina-de-lances",
-      "meus-arquivos",
-      "meus-dados",
-      "meus-documentos",
-      "meus-negocios",
-      "minha-agenda",
-      "minhas-empresas",
-      "oportunidade-5467365",
-      "oportunidade-5641228",
-      "oportunidade-5838194",
-      "oportunidades",
-      "orgaos",
-      "pagometro",
-      "pecas-juridicas",
-      "planos",
-      "politica-de-privacidade",
-      "produtos-marcas",
-      "quadros",
-      "reative-assinatura",
-      "recuperar-senha",
-      "termos-de-uso"
-    ],
-    "route_count": 48,
-    "sample_query": null,
-    "sample_body": "{\"startTime\":1794417033188,\"pageloadId\":\"af43d367-168e-4f37-85ca-a4dfd52fd22a\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://app.sigapregao.com.br/agente-prospeccao\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"145\",\"bv\":\"145\",\"ov\":\"11\"},\"memory\":{\"totalJSHeapSize\":74293069,\"usedJSHeapSize\":60303145,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":0,\"firstContentfulPaint\":0,\"timingsV2\":{\"nextHopProtocol\":\"h3\",\"domainLookupStart\":1,\"domainLookupEnd\":1,\"connec",
-    "response_shape": null
+    "count": 1,
+    "request_schema": {
+      "tipoPeriodo": "str",
+      "orgaos": "list",
+      "pesquisa": "str",
+      "excluir": "str",
+      "limitar": "str",
+      "dataInicial": "str",
+      "dataFinal": "str",
+      "valorMinimoDaCompra": "int",
+      "valorMaximoDaCompra": "int",
+      "valorMinimoDoItem": "int",
+      "valorMaximoDoItem": "int",
+      "qtdMaxItens": "int",
+      "somenteValoresSigilosos": "bool",
+      "itensDesertos": "bool",
+      "ufs": "list",
+      "portais": "list",
+      "modalidades": "list",
+      "superoportunidades": "bool",
+      "participacaoExclusiva": "bool",
+      "fontePncp": "str",
+      "orgaoCnpj": "str",
+      "excluirRegistroPreco": "bool",
+      "modoDisputa": "str",
+      "tipoItem": "str",
+      "pesquisaAmpla": "bool",
+      "page": "int"
+    }
   }
 ]
